@@ -1,0 +1,858 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\27265bce157a130bff7135e2276b9ce1\databinding-adapters-4.1.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e25436c161afd08a436ef6315d13cab7\databinding-runtime-4.1.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.arcadefire:nice-spinner:1.4.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eb7697bf2369efa29e3b62f36dd1e0f6\jetified-nice-spinner-1.4.4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.AliAzaz:AndroidValidatorCrawler:1.0.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\96ad8f5cff2fdc06ed160149ca9c0128\jetified-AndroidValidatorCrawler-1.0.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.AliAzaz:Edittext-Library:2.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\fc04b1329a4861db186729a9da830222\jetified-Edittext-Library-2.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\c9763b8f06faf50c1e171f24a9d18d61\jetified-lifecycle-livedata-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\94037f30e007c6c160afe075cdc46773\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7798744aeb4d899062a3cf217175fb2c\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\306914113a3a9181473cd386f7cdab4c\jetified-rxbinding-3.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7236f21426c2a24e62b7285ea6940ddc\work-runtime-ktx-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.whalemare:sheetmenu:2.0.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a511482ced63cc69dfe3764add2f18e5\jetified-sheetmenu-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\81354e7cc7e92746903b3294425413ec\jetified-core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f70ce017aa0b22d2ad4c8aed227714ff\jetified-lifecycle-livedata-core-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\53c83d306e922a17de670d29b8fc1d87\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ea898df80b4e0eb8f9388dd7a8ade7c1\jetified-taptargetview-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1a0d96e0c18a24eb3d185aab19caa960\jetified-FancyToast-Android-0.1.6\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\d478fd87d264bcbb4cbefc372cdf466b\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.amlcurran.showcaseview:library:5.4.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f56da7e2c049915bd6444adfb6061f7e\jetified-library-5.4.3\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f54caa0c69a5f4e9244f8a3aea988d55\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.2.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\21a3dec7ffb3450dea52ed99433cb129\media-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ab8ce4c1cc4cf449286283d97134645d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7329d4c1f7776a1ee120fb516b06e9fc\recyclerview-selection-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f16bfeb20960ea9cefcb0f135c68159d\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\489f0d3da0ff5773b2ded616d6985de0\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6370063e0b8fa2cc17c5dbea1e89209f\jetified-threetenabp-1.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton:butterknife:10.2.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a8bf5bc9fa55be2d6e05bf84922aa467\jetified-butterknife-10.2.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\194e50c461319b8964802a895a30103c\jetified-material-ripple-1.0.2\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android:flexbox:2.0.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7e994b590a97ce60b4e7d9d52d7752cc\jetified-flexbox-2.0.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4cd371e3511d7c8cbae331f03d7ed817\jetified-sdp-android-1.0.5\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f523c84bb613db9c1a146ab3921af2a4\jetified-rxandroid-3.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9d9a6a61632163307ec24219c730afb4\jetified-compressor-2.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\b0dd1268742b8dd3c07d0e766899c22b\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ff53df7279d60e0acf7c5ce44840c45a\jetified-security-crypto-1.1.0-alpha03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:17:1-143:12
+MERGED from [com.scottyab:rootbeer-lib:0.0.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e6766c39572671b3a246c7e87b7d9313\jetified-rootbeer-lib-0.0.8\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5a316453e895d3c2f29847af9750d91c\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1675df96b3e4b95f92e84df221444a89\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6e3903f9a060fb87881e6d01877f53e2\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a4d667f0cd9699476e359c2ec6d5d281\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\c28ac13800cd020ca675c125a51634f3\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bd2077ec41678431f0767af846c5a1c6\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bb29094f61e97ee7a9958a804d106453\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\12081b42d72dbb5bb7456e89ac571010\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\192e405a1345aa0aa5e44f56852a2fb2\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bcdb96d706a49a0d24061639c7736998\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\739d44634dc4be7f5b1d6d4aebce4abb\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9d350d472b60be29bf15c7614c1b971f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\295e3904f7399dadaf499d866a15a36d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5b8a70499d57ee43c6a8b75cdc9e040c\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\185996642ab21955d49531b557eb5938\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\25a4d6bb3a8291cf3e0b591a687da37b\jetified-butterknife-runtime-10.2.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\62c543c98fcc515b7872396c2ce2bc67\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\56be88507f346556921801ce42de90b0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\019578ed058c12f475c96909476f3770\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6019b0a4664849b1c9341d139e344c20\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\002701aafec86e97badd4506622f38e3\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4b9cddabea6fdf00ddf687eaf25f398b\lifecycle-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9e1e04a78fbfbb7ad32217e669b5f477\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e8cb2c101b6e10cb0c16ee11bec66721\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4bfbb9bd703aecbe177cf084e3b146b5\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\730bc262163d859f5d295465efc93944\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\38dbb3c5498e179b18d3d4c5dad4dd82\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9b8a337a525da4f9ffd261976373eb7a\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ee9f3e98f36732201aa6cf610647ffd7\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\46e8c764e0241f676ba20f04d5de20b2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7ed92a56e2e7dd67f210f86ab2e63bd1\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\3c42045a155e351cc7f8e9e2f8558ce6\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\64e415f501163b45103f528322069681\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\35c1ec2788d60db297a3a66bed9d1a31\lifecycle-livedata-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\3ba834110d9827c3134833589e7d965e\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5cbc89502a319375fe3d3baa8bb73643\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\2aa5e5a6a997d5c7425ecea4df76cd34\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\15aa155ad0ec2eb1991fa443b30ecfef\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eab18efd4be1a2e03cd499dba5cb55e9\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+	package
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:5:5-45
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:7:22-76
+uses-feature#android.hardware.location.gps
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:8:19-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.hardware.location.gps
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:14:5-86
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:14:22-83
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:16:5-72
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:16:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:17:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.CAMERA
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:21:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:22:5-68
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:22:22-65
+application
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:24:5-149:19
+MERGED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\53c83d306e922a17de670d29b8fc1d87\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\53c83d306e922a17de670d29b8fc1d87\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1a0d96e0c18a24eb3d185aab19caa960\jetified-FancyToast-Android-0.1.6\AndroidManifest.xml:11:5-14:38
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1a0d96e0c18a24eb3d185aab19caa960\jetified-FancyToast-Android-0.1.6\AndroidManifest.xml:11:5-14:38
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6370063e0b8fa2cc17c5dbea1e89209f\jetified-threetenabp-1.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6370063e0b8fa2cc17c5dbea1e89209f\jetified-threetenabp-1.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\194e50c461319b8964802a895a30103c\jetified-material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\194e50c461319b8964802a895a30103c\jetified-material-ripple-1.0.2\AndroidManifest.xml:12:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\b0dd1268742b8dd3c07d0e766899c22b\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\b0dd1268742b8dd3c07d0e766899c22b\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:30:5-141:19
+MERGED from [com.scottyab:rootbeer-lib:0.0.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e6766c39572671b3a246c7e87b7d9313\jetified-rootbeer-lib-0.0.8\AndroidManifest.xml:11:5-20
+MERGED from [com.scottyab:rootbeer-lib:0.0.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e6766c39572671b3a246c7e87b7d9313\jetified-rootbeer-lib-0.0.8\AndroidManifest.xml:11:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5a316453e895d3c2f29847af9750d91c\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5a316453e895d3c2f29847af9750d91c\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9e1e04a78fbfbb7ad32217e669b5f477\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9e1e04a78fbfbb7ad32217e669b5f477\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\730bc262163d859f5d295465efc93944\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\730bc262163d859f5d295465efc93944\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:29:9-45
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:27:9-46
+	android:allowBackup
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:26:9-36
+		REJECTED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:12:9-35
+		REJECTED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1a0d96e0c18a24eb3d185aab19caa960\jetified-FancyToast-Android-0.1.6\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:32:9-41
+	tools:replace
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:33:9-44
+	android:usesCleartextTraffic
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:31:9-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:25:9-37
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportCluster
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:34:9-39:47
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:38:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:37:13-41
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:39:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:35:13-64
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportDate
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:40:9-45:47
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:43:13-41
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:45:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:41:13-61
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.PendingFormsActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:46:9-51:47
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:49:13-45
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:48:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:47:13-66
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSubInfoActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:52:9-55:47
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:54:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:53:13-63
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHAActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:56:9-60:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:59:13-45
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:57:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHBActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:61:9-65:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:65:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:64:13-43
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:62:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHCActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:66:9-70:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:69:13-42
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:67:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHDActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:71:9-75:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:74:13-42
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:72:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHEActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:76:9-80:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:80:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:79:13-42
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:77:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS2Activity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:81:9-85:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:85:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:84:13-42
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:82:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS1Activity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:86:9-90:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:89:13-42
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:87:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.SplashscreenActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:91:9-100:20
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:93:13-49
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:94:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:92:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:95:13-99:29
+action#android.intent.action.MAIN
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:96:17-69
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:96:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:98:17-77
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:98:27-74
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.LoginActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:101:9-105:47
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:104:13-49
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:103:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:105:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:102:13-51
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionInfoActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:106:9-110:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:110:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:109:13-42
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:108:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:107:13-60
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionHHActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:111:9-115:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:115:13-49
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:114:13-42
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:113:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:112:13-58
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.EndingActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:116:9-119:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:119:13-49
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:117:13-52
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.ChildEndingActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:120:9-123:52
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:123:13-49
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:121:13-57
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:124:9-128:74
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:127:13-49
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:126:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:128:13-71
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:125:13-50
+activity#edu.aku.hassannaqvi.tpvics_hh.core.AndroidManager
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:129:9-134:47
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:133:13-49
+	android:parentActivityName
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:132:13-64
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:131:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:130:13-48
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.sync.SyncActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:135:9-140:47
+	android:screenOrientation
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:139:13-49
+	android:parentActivityName
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:138:13-64
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:137:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:140:13-44
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:136:13-49
+activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.TakePhoto
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:141:9-146:59
+	android:label
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:145:13-45
+	android:hardwareAccelerated
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:144:13-47
+	android:exported
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:143:13-37
+	android:theme
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:146:13-56
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:142:13-47
+service#edu.aku.hassannaqvi.tpvics_hh.utils.DownloadFileService
+ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:148:9-62
+	android:name
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:148:18-59
+uses-sdk
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\27265bce157a130bff7135e2276b9ce1\databinding-adapters-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\27265bce157a130bff7135e2276b9ce1\databinding-adapters-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e25436c161afd08a436ef6315d13cab7\databinding-runtime-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e25436c161afd08a436ef6315d13cab7\databinding-runtime-4.1.2\AndroidManifest.xml:22:5-44
+MERGED from [com.github.arcadefire:nice-spinner:1.4.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eb7697bf2369efa29e3b62f36dd1e0f6\jetified-nice-spinner-1.4.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.arcadefire:nice-spinner:1.4.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eb7697bf2369efa29e3b62f36dd1e0f6\jetified-nice-spinner-1.4.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.AliAzaz:AndroidValidatorCrawler:1.0.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\96ad8f5cff2fdc06ed160149ca9c0128\jetified-AndroidValidatorCrawler-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AliAzaz:AndroidValidatorCrawler:1.0.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\96ad8f5cff2fdc06ed160149ca9c0128\jetified-AndroidValidatorCrawler-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AliAzaz:Edittext-Library:2.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\fc04b1329a4861db186729a9da830222\jetified-Edittext-Library-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AliAzaz:Edittext-Library:2.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\fc04b1329a4861db186729a9da830222\jetified-Edittext-Library-2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\c9763b8f06faf50c1e171f24a9d18d61\jetified-lifecycle-livedata-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\c9763b8f06faf50c1e171f24a9d18d61\jetified-lifecycle-livedata-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\94037f30e007c6c160afe075cdc46773\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\94037f30e007c6c160afe075cdc46773\jetified-lifecycle-viewmodel-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7798744aeb4d899062a3cf217175fb2c\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7798744aeb4d899062a3cf217175fb2c\jetified-lifecycle-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\306914113a3a9181473cd386f7cdab4c\jetified-rxbinding-3.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.rxbinding3:rxbinding:3.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\306914113a3a9181473cd386f7cdab4c\jetified-rxbinding-3.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7236f21426c2a24e62b7285ea6940ddc\work-runtime-ktx-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7236f21426c2a24e62b7285ea6940ddc\work-runtime-ktx-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.whalemare:sheetmenu:2.0.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a511482ced63cc69dfe3764add2f18e5\jetified-sheetmenu-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.whalemare:sheetmenu:2.0.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a511482ced63cc69dfe3764add2f18e5\jetified-sheetmenu-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\81354e7cc7e92746903b3294425413ec\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\81354e7cc7e92746903b3294425413ec\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f70ce017aa0b22d2ad4c8aed227714ff\jetified-lifecycle-livedata-core-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f70ce017aa0b22d2ad4c8aed227714ff\jetified-lifecycle-livedata-core-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\53c83d306e922a17de670d29b8fc1d87\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\53c83d306e922a17de670d29b8fc1d87\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ea898df80b4e0eb8f9388dd7a8ade7c1\jetified-taptargetview-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ea898df80b4e0eb8f9388dd7a8ade7c1\jetified-taptargetview-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1a0d96e0c18a24eb3d185aab19caa960\jetified-FancyToast-Android-0.1.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1a0d96e0c18a24eb3d185aab19caa960\jetified-FancyToast-Android-0.1.6\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\d478fd87d264bcbb4cbefc372cdf466b\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\d478fd87d264bcbb4cbefc372cdf466b\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.amlcurran.showcaseview:library:5.4.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f56da7e2c049915bd6444adfb6061f7e\jetified-library-5.4.3\AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.amlcurran.showcaseview:library:5.4.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f56da7e2c049915bd6444adfb6061f7e\jetified-library-5.4.3\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f54caa0c69a5f4e9244f8a3aea988d55\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f54caa0c69a5f4e9244f8a3aea988d55\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.2.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\21a3dec7ffb3450dea52ed99433cb129\media-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\21a3dec7ffb3450dea52ed99433cb129\media-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ab8ce4c1cc4cf449286283d97134645d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ab8ce4c1cc4cf449286283d97134645d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7329d4c1f7776a1ee120fb516b06e9fc\recyclerview-selection-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7329d4c1f7776a1ee120fb516b06e9fc\recyclerview-selection-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f16bfeb20960ea9cefcb0f135c68159d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f16bfeb20960ea9cefcb0f135c68159d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\489f0d3da0ff5773b2ded616d6985de0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\489f0d3da0ff5773b2ded616d6985de0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6370063e0b8fa2cc17c5dbea1e89209f\jetified-threetenabp-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6370063e0b8fa2cc17c5dbea1e89209f\jetified-threetenabp-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a8bf5bc9fa55be2d6e05bf84922aa467\jetified-butterknife-10.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a8bf5bc9fa55be2d6e05bf84922aa467\jetified-butterknife-10.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\194e50c461319b8964802a895a30103c\jetified-material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv:material-ripple:1.0.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\194e50c461319b8964802a895a30103c\jetified-material-ripple-1.0.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android:flexbox:2.0.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7e994b590a97ce60b4e7d9d52d7752cc\jetified-flexbox-2.0.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:2.0.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7e994b590a97ce60b4e7d9d52d7752cc\jetified-flexbox-2.0.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4cd371e3511d7c8cbae331f03d7ed817\jetified-sdp-android-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4cd371e3511d7c8cbae331f03d7ed817\jetified-sdp-android-1.0.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f523c84bb613db9c1a146ab3921af2a4\jetified-rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\f523c84bb613db9c1a146ab3921af2a4\jetified-rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9d9a6a61632163307ec24219c730afb4\jetified-compressor-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9d9a6a61632163307ec24219c730afb4\jetified-compressor-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\b0dd1268742b8dd3c07d0e766899c22b\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\b0dd1268742b8dd3c07d0e766899c22b\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ff53df7279d60e0acf7c5ce44840c45a\jetified-security-crypto-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ff53df7279d60e0acf7c5ce44840c45a\jetified-security-crypto-1.1.0-alpha03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:21:5-23:41
+MERGED from [com.scottyab:rootbeer-lib:0.0.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e6766c39572671b3a246c7e87b7d9313\jetified-rootbeer-lib-0.0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scottyab:rootbeer-lib:0.0.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e6766c39572671b3a246c7e87b7d9313\jetified-rootbeer-lib-0.0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5a316453e895d3c2f29847af9750d91c\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5a316453e895d3c2f29847af9750d91c\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1675df96b3e4b95f92e84df221444a89\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1675df96b3e4b95f92e84df221444a89\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6e3903f9a060fb87881e6d01877f53e2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6e3903f9a060fb87881e6d01877f53e2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a4d667f0cd9699476e359c2ec6d5d281\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\a4d667f0cd9699476e359c2ec6d5d281\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\c28ac13800cd020ca675c125a51634f3\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\c28ac13800cd020ca675c125a51634f3\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bd2077ec41678431f0767af846c5a1c6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bd2077ec41678431f0767af846c5a1c6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bb29094f61e97ee7a9958a804d106453\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bb29094f61e97ee7a9958a804d106453\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\12081b42d72dbb5bb7456e89ac571010\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\12081b42d72dbb5bb7456e89ac571010\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\192e405a1345aa0aa5e44f56852a2fb2\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\192e405a1345aa0aa5e44f56852a2fb2\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bcdb96d706a49a0d24061639c7736998\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\bcdb96d706a49a0d24061639c7736998\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\739d44634dc4be7f5b1d6d4aebce4abb\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\739d44634dc4be7f5b1d6d4aebce4abb\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9d350d472b60be29bf15c7614c1b971f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9d350d472b60be29bf15c7614c1b971f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\295e3904f7399dadaf499d866a15a36d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\295e3904f7399dadaf499d866a15a36d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5b8a70499d57ee43c6a8b75cdc9e040c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5b8a70499d57ee43c6a8b75cdc9e040c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\185996642ab21955d49531b557eb5938\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\185996642ab21955d49531b557eb5938\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\25a4d6bb3a8291cf3e0b591a687da37b\jetified-butterknife-runtime-10.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.3] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\25a4d6bb3a8291cf3e0b591a687da37b\jetified-butterknife-runtime-10.2.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\62c543c98fcc515b7872396c2ce2bc67\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\62c543c98fcc515b7872396c2ce2bc67\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\56be88507f346556921801ce42de90b0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\56be88507f346556921801ce42de90b0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\019578ed058c12f475c96909476f3770\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\019578ed058c12f475c96909476f3770\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6019b0a4664849b1c9341d139e344c20\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\6019b0a4664849b1c9341d139e344c20\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\002701aafec86e97badd4506622f38e3\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\002701aafec86e97badd4506622f38e3\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4b9cddabea6fdf00ddf687eaf25f398b\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4b9cddabea6fdf00ddf687eaf25f398b\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9e1e04a78fbfbb7ad32217e669b5f477\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9e1e04a78fbfbb7ad32217e669b5f477\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e8cb2c101b6e10cb0c16ee11bec66721\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e8cb2c101b6e10cb0c16ee11bec66721\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4bfbb9bd703aecbe177cf084e3b146b5\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\4bfbb9bd703aecbe177cf084e3b146b5\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\730bc262163d859f5d295465efc93944\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\730bc262163d859f5d295465efc93944\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\38dbb3c5498e179b18d3d4c5dad4dd82\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\38dbb3c5498e179b18d3d4c5dad4dd82\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9b8a337a525da4f9ffd261976373eb7a\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9b8a337a525da4f9ffd261976373eb7a\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ee9f3e98f36732201aa6cf610647ffd7\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\ee9f3e98f36732201aa6cf610647ffd7\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\46e8c764e0241f676ba20f04d5de20b2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\46e8c764e0241f676ba20f04d5de20b2\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7ed92a56e2e7dd67f210f86ab2e63bd1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\7ed92a56e2e7dd67f210f86ab2e63bd1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\3c42045a155e351cc7f8e9e2f8558ce6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\3c42045a155e351cc7f8e9e2f8558ce6\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\64e415f501163b45103f528322069681\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\64e415f501163b45103f528322069681\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\35c1ec2788d60db297a3a66bed9d1a31\lifecycle-livedata-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\35c1ec2788d60db297a3a66bed9d1a31\lifecycle-livedata-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\3ba834110d9827c3134833589e7d965e\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\3ba834110d9827c3134833589e7d965e\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5cbc89502a319375fe3d3baa8bb73643\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\5cbc89502a319375fe3d3baa8bb73643\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\2aa5e5a6a997d5c7425ecea4df76cd34\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\2aa5e5a6a997d5c7425ecea4df76cd34\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\15aa155ad0ec2eb1991fa443b30ecfef\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\15aa155ad0ec2eb1991fa443b30ecfef\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eab18efd4be1a2e03cd499dba5cb55e9\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eab18efd4be1a2e03cd499dba5cb55e9\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+activity#com.nabinbhandari.android.permissions.PermissionsActivity
+ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:12:9-14:67
+	android:theme
+		ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:13:13-85
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:28:22-74
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:138:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:26:13-74

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.aku.hassannaqvi.tpvics_hh"
+    android:installLocation="preferExternal"
+    android:versionCode="2293"
+    android:versionName="2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.hardware.location.gps" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- TakePhoto Permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name="edu.aku.hassannaqvi.tpvics_hh.core.MainApp"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/tpvics_logo2"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme1"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportCluster"
+            android:exported="false"
+            android:label="Forms Report"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportDate"
+            android:exported="false"
+            android:label="Forms Report"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.PendingFormsActivity"
+            android:exported="false"
+            android:label="Unfinished Forms"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSubInfoActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHAActivity"
+            android:exported="false"
+            android:label="@string/ch_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHBActivity"
+            android:exported="false"
+            android:label="@string/chBsec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHCActivity"
+            android:exported="false"
+            android:label="@string/chsec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHDActivity"
+            android:exported="false"
+            android:label="@string/chsec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHEActivity"
+            android:exported="false"
+            android:label="@string/chsec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS2Activity"
+            android:exported="false"
+            android:label="@string/sssec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS1Activity"
+            android:exported="false"
+            android:label="@string/sssec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.SplashscreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionInfoActivity"
+            android:exported="false"
+            android:label="@string/hhsec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionHHActivity"
+            android:exported="false"
+            android:label="@string/hhsec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.EndingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.ChildEndingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.core.AndroidManager"
+            android:exported="false"
+            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sync.SyncActivity"
+            android:exported="false"
+            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.TakePhoto"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name="edu.aku.hassannaqvi.tpvics_hh.utils.DownloadFileService" />
+
+        <activity
+            android:name="com.nabinbhandari.android.permissions.PermissionsActivity"
+            android:theme="@style/Permissions.TransparentTheme" />
+
+        <provider
+            android:name="androidx.work.impl.WorkManagerInitializer"
+            android:authorities="edu.aku.hassannaqvi.tpvics_hh.workmanager-init"
+            android:directBootAware="false"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" />
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false" />
+
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

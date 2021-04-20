@@ -1,0 +1,11 @@
+# ninja log v5
+0	8	0	clean	b6506db4ee9506ee
+0	8	0	clean	b6506db4ee9506ee
+0	8	0	clean	b6506db4ee9506ee
+1	175	637764315	build.ninja	6571f5d9e5126009
+0	6	0	clean	b6506db4ee9506ee
+1	186	638264849	build.ninja	6571f5d9e5126009
+0	6	0	clean	b6506db4ee9506ee
+2	440	638529156	CMakeFiles/native-lib.dir/src/main/cpp/lib.cpp.o	54bec4bd840b8ff8
+442	618	638529156	../../../../build/intermediates/cmake/release/obj/x86_64/libnative-lib.so	ee5bf18ed04dfcce
+0	9	0	clean	b6506db4ee9506ee

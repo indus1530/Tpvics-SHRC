@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "edu.aku.hassannaqvi.tpvics_hh",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 2291,
+      "versionName": "2.1",
+      "outputFile": "app-release.apk"
+    }
+  ]
+}

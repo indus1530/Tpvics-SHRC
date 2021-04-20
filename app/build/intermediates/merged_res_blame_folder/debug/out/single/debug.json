@@ -1,0 +1,542 @@
+[
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_add_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\menu_item_menu.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\menu\\item_menu.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mainmenu.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\mainmenu.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_index.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\index.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\tooltip.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_bg_gray.jpg.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-xhdpi\\app_bg_gray.jpg"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_child_ending.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_child_ending.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account_circle_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_pendingform_layout.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\pendingform_layout.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_search.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\circle_search.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sosas_icon.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\sosas_icon.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_uenlogo.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\uenlogo.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mother.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\mother.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_ch_a.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_ch_a.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_upload.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_upload.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_et_style.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\et_style.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_openformhh02_layout.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\openformhh02_layout.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tpvics_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_tpvics_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_item_dialog_2.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout-v17\\item_dialog_2.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arrow.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_count_alert_dialog_layout.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\count_alert_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sg_agakhan_02.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\sg_agakhan_02.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bacground_border.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\bacground_border.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mother_1.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\mother_1.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forms_report_cluster.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_forms_report_cluster.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bacground_border1.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\bacground_border1.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_ch_b.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_ch_b.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_assignment_ind_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_assignment_ind_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_alert_dialog_layout.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\alert_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_style.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\circle_style.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ctr_childgirl.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\ctr_childgirl.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_child_list.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\item_child_list.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_hintcolor.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\edittext_hintcolor.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_options_separator.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-xhdpi\\options_separator.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_download.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_download.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_ch_c.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_ch_c.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maternity.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\maternity.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_hh.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_hh.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_info.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_info.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_content_family_members_list.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout-v17\\content_family_members_list.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_database.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\database.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_btn.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\outline_btn.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upload.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\upload.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-mdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_mem_list.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\item_mem_list.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_card_design.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\card_design.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_power_settings_new_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_power_settings_new_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_agakhan.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\agakhan.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_curve_button.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\curve_button.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tagimg.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\tagimg.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tpvics_logo.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\tpvics_logo.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textview_background_grad.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\textview_background_grad.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_subinfo_func_layout.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\subinfo_func_layout.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_sub_info.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_sub_info.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_closed_caption_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_closed_caption_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maxresdefault.jpg.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\maxresdefault.jpg"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_ss1.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_ss1.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_ch_e.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_ch_e.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ctr_female.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\ctr_female.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sync.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_sync.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ctr_childboy.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\ctr_childboy.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_remove_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_icon.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forms_report_date.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_forms_report_date.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_girl.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\girl.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_stop.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_stop.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\arrow.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_children.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\children.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sosas_bg.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\sosas_bg.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_summary.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\summary.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_border.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\button_border.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_uncolor.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\uncolor.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_agakhannew.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\agakhannew.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\bottom.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_rec_outline_btn.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-anydpi\\rec_outline_btn.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ending.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_ending.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_child.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_add_child.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_open_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_lock_open_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hhform_icon.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\hhform_icon.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_options.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\bottom_options.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_warning.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\warning.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_button_style.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\round_button_style.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_openformhh_layout.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\openformhh_layout.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_right_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sosas_splash.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\sosas_splash.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_check.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\check.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pending_forms.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_pending_forms.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_activity_camera.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout-v17\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnshape.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\btnshape.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_openformch_layout.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\openformch_layout.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_open_form.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\open_form.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\search.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_info.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttonshapewhitebg.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\buttonshapewhitebg.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_bg_color.jpg.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-xhdpi\\app_bg_color.jpg"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mother.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\mother.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tpvics_logo2.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\tpvics_logo2.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_sync_list_adapter.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout-v17\\sync_list_adapter.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\border.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove_red_eye_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_remove_red_eye_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arrow.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-xhdpi\\ic_arrow.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_left_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_dialog.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\item_dialog.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_ch_d.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_ch_d.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exclamation.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\exclamation.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_familymembers.jpg.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\familymembers.jpg"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_md11.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\md11.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_boy.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\boy.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cloud_download_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_cloud_download_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_error_marker.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\error_marker.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\download.png"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_grad.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\background_grad.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_style.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\text_style.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_battery_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_battery_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_button.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_downarrow.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\downarrow.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_warning_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_warning_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_subheadings_separator.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-xhdpi\\subheadings_separator.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lw_bg.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\lw_bg.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_style.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\spinner_style.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17_upload_list_adapter.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout-v17\\upload_list_adapter.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_drop_up_black_24dp.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable\\ic_arrow_drop_up_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_section_ss2.xml.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\layout\\activity_section_ss2.xml"
+    },
+    {
+        "merged": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ctr_male.png.flat",
+        "source": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\src\\main\\res\\drawable-hdpi\\ctr_male.png"
+    }
+]

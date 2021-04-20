@@ -1,0 +1,11 @@
+# ninja log v5
+0	10	0	clean	b6506db4ee9506ee
+0	7	0	clean	b6506db4ee9506ee
+0	8	0	clean	b6506db4ee9506ee
+2	164	637764314	build.ninja	15191ce2ea43268b
+0	6	0	clean	b6506db4ee9506ee
+1	752	638264848	build.ninja	15191ce2ea43268b
+1	7	0	clean	b6506db4ee9506ee
+1	1649	638529153	CMakeFiles/native-lib.dir/src/main/cpp/lib.cpp.o	d0e2b40616f67713
+1651	2132	638529154	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so	29bbd318860d8d2
+0	9	0	clean	b6506db4ee9506ee

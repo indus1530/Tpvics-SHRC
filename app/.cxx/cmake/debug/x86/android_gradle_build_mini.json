@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\CMakeLists.txt",
+    "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\build\\cmake\\android-legacy.toolchain.cmake",
+    "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\debug\\x86\" native-lib",
+      "abi": "x86",
+      "output": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}
