@@ -140,6 +140,8 @@ public class SectionHHActivity extends AppCompatActivity implements EndSectionAc
                 : "0");
 
         json.put("hh19", bi.hh19.getText().toString());
+        json.put("hh19a", bi.hh19a.getText().toString());
+        json.put("hh19b", bi.hh19b.getText().toString());
 
         json.put("hh20", bi.hh20a.isChecked() ? "1"
                 : bi.hh20b.isChecked() ? "2"
@@ -164,6 +166,13 @@ public class SectionHHActivity extends AppCompatActivity implements EndSectionAc
                 return false;
             return Validator.emptyCheckingContainer(this, bi.fldGrpSectionA02);
         } else return Validator.emptyCheckingContainer(this, bi.fldGrpSectionA01);
+
+/*        int total = Integer.parseInt(bi.hh19a.getText().toString()) + Integer.parseInt(bi.hh19b.getText().toString());
+
+        if (total != Integer.parseInt(bi.hh19.getText().toString())){
+            return Validator.emptyCustomTextBox(this, bi.hh19,"Invalid Count");
+        }*/
+
     }
 
     public void BtnEnd() {
