@@ -36,13 +36,13 @@ import timber.log.Timber;
 public class MainApp extends Application {
 
     public static final String TAG = "AppMain";
-    public static final String _IP = "https://vcoe1.aku.edu";// .LIVE server
-    //    public static final String _IP = "http://f38158";// .TEST server
-    public static final String _HOST_URL = MainApp._IP + "/tpvics/api/";// .TEST server;
+    //    public static final String _IP = "https://vcoe1.aku.edu";// .LIVE server
+    public static final String _IP = "http://f38158";// .TEST server
+    public static final String _HOST_URL = MainApp._IP + "/tpvics_shrc/api/";// .TEST server;
     public static final String _SERVER_URL = "syncenc.php";
     public static final String _SERVER_GET_URL = "getdataenc.php";
-    public static final String _PHOTO_UPLOAD_URL = MainApp._IP + "/tpvics/api/uploads.php";
-    public static final String _UPDATE_URL = MainApp._IP + "/tpvics/app/bl/";
+    public static final String _PHOTO_UPLOAD_URL = MainApp._IP + "/tpvics_shrc/api/uploads.php";
+    public static final String _UPDATE_URL = MainApp._IP + "/tpvics_shrc/app/bl/";
     private static final long MINIMUM_DISTANCE_CHANGE_FOR_UPDATES = 1; // in Meters
     private static final long MINIMUM_TIME_BETWEEN_UPDATES = 1000; // in Milliseconds
     private static final int TWO_MINUTES = 1000 * 60 * 2;

@@ -5,7 +5,7 @@ import edu.aku.hassannaqvi.tpvics_hh_shrc.models.BLRandom.BLRandomHHTable
 import edu.aku.hassannaqvi.tpvics_hh_shrc.models.ChildContract.ChildTable
 
 object CreateTable {
-    const val PROJECT_NAME = "TPVICS_HH_SRC"
+    const val PROJECT_NAME = "TPVICS_HH_SHRC"
     const val DATABASE_NAME = "$PROJECT_NAME.db"
     const val DATABASE_COPY = "${PROJECT_NAME}_copy.db"
     const val DATABASE_VERSION = 1
