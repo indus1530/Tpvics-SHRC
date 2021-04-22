@@ -842,9 +842,24 @@
     <string name="im2417"> دیگر(وضاحت کریں) </string>
     <string name="im2499"> معلوم نہیں </string>
 
+    <string name="im24a">کیا بچے کو کبھی قومی مہم کے دوران پولیو کے قطرے پلوائے گئے ہیں؟</string>
+    <string name="im24a1">ہاں</string>
+    <string name="im24a2">نہیں</string>
+    <string name="im24a98">معلوم نہیں</string>
+    <string name="im24b98">معلوم نہیں</string>
+    <string name="im24b">قومی مہم کے دوران بچے کو پولیو کے قطرے کتنی بار پلائے گئے تھے؟</string>
+    <string name="im24c">کیا بچے کو گذشتہ قومی پولیو مہم کے دوران پولیو کے قطرے پلائے گئے تھے</string>
+    <string name="im24d">جب آخری بار (بچے/بچی ) کو  پولیو کے قطرے پلائے گئے تھے تو کیا اس وقت  بچے  کو پولیو سےبچائو کا ٹیکہIPV بھی لگوایا گیا تھا؟</string>
+    <string name="im24c1">ہاں</string>
+    <string name="im24d1">ہاں</string>
+    <string name="im24c2">نہیں</string>
+    <string name="im24d2">نہیں</string>
+    <string name="im24c98">معلوم نہیں</string>
+    <string name="im24d98">معلوم نہیں</string>
+
     <!--<string name="im25"> اس بچے کے حفاظتی ٹیکوں کے ریکارڈ کے لئے مرکز صحت پر ایک سوالنامہ کا فارم جاری کریں۔ اس سوالنامہ کا انفارمیشن پینل مکمل کریں۔ </string>-->
 
-    <string name="im25"> BCG کے SCAR نشان کو چیک کریں۔ </string>
+    <string name="im25"> ۔BCG کے SCAR نشان کو چیک کریں۔ </string>
     <string name="im2501">نشان موجود ہے</string>
     <string name="im2502">نشان موجود نہیں</string>
     <string name="im2503">بچہ موجود نہیں</string>
@@ -1030,6 +1045,10 @@
     <string name='Q_im23'>im23</string>
     <string name='Q_im23a'>im23a</string>
     <string name='Q_im24'>im24</string>
+    <string name='Q_im24a'>im24a</string>
+    <string name='Q_im24b'>im24b</string>
+    <string name='Q_im24c'>im24c</string>
+    <string name='Q_im24d'>im24d</string>
     <string name='Q_im25'>im25</string>
     <string name='Q_im26a'>im26a</string>
     <string name='Q_im26b'>im26b</string>

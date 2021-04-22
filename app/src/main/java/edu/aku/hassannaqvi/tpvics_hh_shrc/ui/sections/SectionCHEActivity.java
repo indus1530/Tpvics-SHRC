@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.validatorcrawler.aliazaz.Clear;
 import com.validatorcrawler.aliazaz.Validator;
 
 import org.json.JSONException;
@@ -39,6 +40,8 @@ public class SectionCHEActivity extends AppCompatActivity {
 
     private void setupListeners() {
 
+        bi.im24b98.setOnCheckedChangeListener((compoundButton, b) -> Clear.clearAllFields(bi.im24b));
+
     }
 
     private boolean UpdateDB() {
@@ -55,6 +58,27 @@ public class SectionCHEActivity extends AppCompatActivity {
     private void SaveDraft() throws JSONException {
 
         JSONObject json = new JSONObject();
+
+        json.put("im24a",
+                bi.im24a1.isChecked() ? "1" :
+                        bi.im24a2.isChecked() ? "2" :
+                                bi.im24a98.isChecked() ? "98" :
+                                        "0");
+
+        json.put("im24b", bi.im24b.getText().toString());
+        json.put("im24b", bi.im24b98.isChecked() ? "98" : "0");
+
+        json.put("im24c",
+                bi.im24c1.isChecked() ? "1" :
+                        bi.im24c2.isChecked() ? "2" :
+                                bi.im24c98.isChecked() ? "98" :
+                                        "0");
+
+        json.put("im24d",
+                bi.im24d1.isChecked() ? "1" :
+                        bi.im24d2.isChecked() ? "2" :
+                                bi.im24d98.isChecked() ? "98" :
+                                        "0");
 
         json.put("im25", bi.im2501.isChecked() ? "1"
                 : bi.im2502.isChecked() ? "2"
