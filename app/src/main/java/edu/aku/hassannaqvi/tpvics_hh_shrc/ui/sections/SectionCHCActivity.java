@@ -214,6 +214,15 @@ public class SectionCHCActivity extends AppCompatActivity implements EndSectionA
                         bi.im022.isChecked() ? "2" :
                                 bi.im023.isChecked() ? "3" :
                                         "0");
+
+        f1.put("im02a",
+                bi.im02a1.isChecked() ? "1" :
+                        bi.im02a2.isChecked() ? "2" :
+                                bi.im02a3.isChecked() ? "3" :
+                                        bi.im02a96.isChecked() ? "96" :
+                                                "0");
+        f1.put("im02a96x", bi.im02a96x.getText().toString());
+
         f1.put("im01",
                 bi.im011.isChecked() ? "1" :
                         bi.im012.isChecked() ? "2" :

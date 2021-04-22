@@ -610,6 +610,12 @@
     <string name="im022">  ہاں، کار ڈنہیں دیکھا </string>
     <string name="im023"> کارڈ نہیں ہے </string>
 
+    <string name="im02a">اگر نہیں تو، کارڈ نہ دکھانے کی وجہ</string>
+    <string name="im02a1">کارڈ اس وقت نہیں مل رہا</string>
+    <string name="im02a2">کارڈ گم ہو گیا ہے</string>
+    <string name="im02a3">کارڈ مرکزصحت  میں/ویکسینیٹر کے پاس  جمع ہے</string>
+    <string name="im02a96">دیگر وضاحت کریں</string>
+
     <string name="im01"> کیا بچے کے لئے آپ کے پاس کبھی کسی سرکاری یا نجی مرکز صحت سے ملا ہوا حفاظتی ٹیکوں کا کارڈ موجود تھا؟ جس میں حفاظتی ٹیکوں کا اندراج موجود ہو </string>
     <string name="im011"> ہاں </string>
     <string name="im012"> نہیں </string>
@@ -998,6 +1004,7 @@
     <string name='Q_hw8a'>hw8a</string>
     <string name='Q_hw8b'>hw8b</string>
     <string name="Q_im02">im02</string>
+    <string name="Q_im02a">im02a</string>
     <string name="Q_im01">im01</string>
     <string name='Q_im03'>im03</string>
     <string name='Q_im04'>im04</string>
