@@ -230,7 +230,7 @@
                             android:hint="@string/im02a96"
                             android:tag="im02-a96"
                             android:text='@{im02a96.checked ? im02a96x.getText().toString() : ""}'
-                            android:visibility='@{im02a96.checked? View.VISIBLE : View.GONE}' />
+                            android:visibility='@{im02a96.checked ? View.VISIBLE : View.GONE}' />
                     </RadioGroup>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -323,6 +323,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
 
             <LinearLayout
                 android:id="@+id/fldGrpSecChc1"
@@ -500,7 +501,6 @@
 
 
             </LinearLayout>
-
 
             <!--ENDBUTTON linearlayout-->
             <LinearLayout

@@ -164,15 +164,16 @@ public class SectionHHActivity extends AppCompatActivity implements EndSectionAc
         if (flag) {
             if (!Validator.emptyCheckingContainer(this, bi.fldGrpSectionA01))
                 return false;
-            return Validator.emptyCheckingContainer(this, bi.fldGrpSectionA02);
+            else if (!Validator.emptyCheckingContainer(this, bi.fldGrpSectionA02))
+                return false;
+            else {
+                int total = Integer.parseInt(bi.hh19a.getText().toString()) + Integer.parseInt(bi.hh19b.getText().toString());
+                if (total != Integer.parseInt(bi.hh19.getText().toString())) {
+                    return Validator.emptyCustomTextBox(this, bi.hh19, "Invalid Count");
+                }
+                return true;
+            }
         } else return Validator.emptyCheckingContainer(this, bi.fldGrpSectionA01);
-
-/*        int total = Integer.parseInt(bi.hh19a.getText().toString()) + Integer.parseInt(bi.hh19b.getText().toString());
-
-        if (total != Integer.parseInt(bi.hh19.getText().toString())){
-            return Validator.emptyCustomTextBox(this, bi.hh19,"Invalid Count");
-        }*/
-
     }
 
     public void BtnEnd() {

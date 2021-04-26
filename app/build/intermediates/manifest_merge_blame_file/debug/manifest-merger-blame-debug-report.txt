@@ -1,62 +1,62 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="edu.aku.hassannaqvi.tpvics_hh"
+3    package="edu.aku.hassannaqvi.tpvics_hh_shrc"
 4    android:installLocation="preferExternal"
-5    android:versionCode="2293"
+5    android:versionCode="2306"
 6    android:versionName="2.1" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="23"
-9-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+9-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="30" />
-10-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+10-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 11
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
-12-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:7:5-79
-12-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:7:22-76
+12-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:7:22-76
 13    <uses-feature android:name="android.hardware.location.gps" />
-13-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:8:5-66
-13-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:8:19-63
+13-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:8:5-66
+13-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:8:19-63
 14
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:10:5-67
-15-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:10:22-64
+15-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:10:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:11:5-79
-16-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:11:22-76
+16-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:11:22-76
 17    <uses-permission android:name="android.hardware.location.gps" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
-17-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:12:5-69
-17-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:12:22-66
+17-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:12:5-69
+17-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:12:22-66
 18    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-18-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:13:5-71
-18-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:13:22-68
+18-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:13:5-71
+18-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:13:22-68
 19    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
-19-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:14:5-86
-19-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:14:22-83
+19-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:14:5-86
+19-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:14:22-83
 20    <uses-permission android:name="android.permission.READ_PROFILE" />
-20-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:15:5-71
-20-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:15:22-68
+20-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:15:5-71
+20-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:15:22-68
 21    <uses-permission android:name="android.permission.READ_CONTACTS" />
-21-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:16:5-72
-21-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:16:22-69
+21-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:16:5-72
+21-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:16:22-69
 22    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-22-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:17:5-73
-22-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:17:22-70
+22-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:17:5-73
+22-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:17:22-70
 23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-23-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:18:5-81
-23-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:18:22-78
+23-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:18:5-81
+23-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:18:22-78
 24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-24-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:19:5-80
-24-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:19:22-77
+24-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:19:5-80
+24-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:19:22-77
 25    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- TakePhoto Permissions -->
-25-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:20:5-75
-25-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:20:22-72
+25-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:20:5-75
+25-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:20:22-72
 26    <uses-permission android:name="android.permission.CAMERA" />
-26-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:21:5-65
-26-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:21:22-62
+26-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:21:5-65
+26-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:21:22-62
 27    <uses-permission android:name="android.permission.WAKE_LOCK" />
-27-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:22:5-68
-27-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:22:22-65
+27-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:22:5-68
+27-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:22:22-65
 28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 28-->[androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:27:5-81
 28-->[androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:27:22-78
@@ -65,257 +65,257 @@
 29-->[androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:28:22-74
 30
 31    <application
-31-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:24:5-149:19
-32        android:name="edu.aku.hassannaqvi.tpvics_hh.core.MainApp"
-32-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:25:9-37
+31-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:24:5-149:19
+32        android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.core.MainApp"
+32-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:25:9-71
 33        android:allowBackup="false"
-33-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:26:9-36
+33-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:26:9-36
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:24:18-86
 35        android:debuggable="true"
 36        android:extractNativeLibs="false"
 37        android:icon="@drawable/tpvics_logo2"
-37-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:27:9-46
+37-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:27:9-46
 38        android:label="@string/app_name"
-38-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:28:9-41
+38-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:28:9-41
 39        android:screenOrientation="portrait"
-39-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:29:9-45
+39-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:29:9-45
 40        android:supportsRtl="true"
-40-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:30:9-35
+40-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:30:9-35
 41        android:testOnly="true"
 42        android:theme="@style/AppTheme1"
-42-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:32:9-41
+42-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:31:9-41
 43        android:usesCleartextTraffic="true" >
-43-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:31:9-44
+43-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:32:9-44
 44        <activity
-44-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:34:9-39:47
-45            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportCluster"
-45-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:35:13-64
+44-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:34:9-39:47
+45            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.FormsReportCluster"
+45-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:35:13-64
 46            android:exported="false"
-46-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:36:13-37
+46-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:36:13-37
 47            android:label="Forms Report"
-47-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:37:13-41
+47-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:37:13-41
 48            android:screenOrientation="portrait"
-48-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:38:13-49
+48-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:38:13-49
 49            android:theme="@style/AppTheme" />
-49-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:39:13-44
+49-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:39:13-44
 50        <activity
-50-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:40:9-45:47
-51            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportDate"
-51-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:41:13-61
+50-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:40:9-45:47
+51            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.FormsReportDate"
+51-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:41:13-61
 52            android:exported="false"
-52-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:42:13-37
+52-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:42:13-37
 53            android:label="Forms Report"
-53-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:43:13-41
+53-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:43:13-41
 54            android:screenOrientation="portrait"
-54-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:44:13-49
+54-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:44:13-49
 55            android:theme="@style/AppTheme" />
-55-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:45:13-44
+55-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:45:13-44
 56        <activity
-56-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:46:9-51:47
-57            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.PendingFormsActivity"
-57-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:47:13-66
+56-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:46:9-51:47
+57            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.PendingFormsActivity"
+57-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:47:13-66
 58            android:exported="false"
-58-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:48:13-37
+58-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:48:13-37
 59            android:label="Unfinished Forms"
-59-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:49:13-45
+59-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:49:13-45
 60            android:screenOrientation="portrait"
-60-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:50:13-49
+60-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:50:13-49
 61            android:theme="@style/AppTheme" />
-61-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:51:13-44
+61-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:51:13-44
 62        <activity
-62-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:52:9-55:47
-63            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSubInfoActivity"
-63-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:53:13-63
+62-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:52:9-55:47
+63            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSubInfoActivity"
+63-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:53:13-63
 64            android:exported="false"
-64-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:54:13-37
+64-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:54:13-37
 65            android:theme="@style/AppTheme" />
-65-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:55:13-44
+65-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:55:13-44
 66        <activity
-66-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:56:9-60:52
-67            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHAActivity"
-67-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:57:13-59
+66-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:56:9-60:52
+67            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHAActivity"
+67-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:57:13-59
 68            android:exported="false"
-68-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:58:13-37
+68-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:58:13-37
 69            android:label="@string/ch_title"
-69-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:59:13-45
+69-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:59:13-45
 70            android:screenOrientation="portrait" />
-70-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:60:13-49
+70-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:60:13-49
 71        <activity
-71-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:61:9-65:52
-72            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHBActivity"
-72-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:62:13-59
+71-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:61:9-65:52
+72            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHBActivity"
+72-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:62:13-59
 73            android:exported="false"
-73-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:63:13-37
+73-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:63:13-37
 74            android:label="@string/chBsec"
-74-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:64:13-43
+74-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:64:13-43
 75            android:screenOrientation="portrait" />
-75-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:65:13-49
+75-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:65:13-49
 76        <activity
-76-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:66:9-70:52
-77            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHCActivity"
-77-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:67:13-59
+76-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:66:9-70:52
+77            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHCActivity"
+77-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:67:13-59
 78            android:exported="false"
-78-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:68:13-37
+78-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:68:13-37
 79            android:label="@string/chsec"
-79-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:69:13-42
+79-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:69:13-42
 80            android:screenOrientation="portrait" />
-80-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:70:13-49
+80-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:70:13-49
 81        <activity
-81-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:71:9-75:52
-82            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHDActivity"
-82-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:72:13-59
+81-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:71:9-75:52
+82            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHDActivity"
+82-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:72:13-59
 83            android:exported="false"
-83-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:73:13-37
+83-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:73:13-37
 84            android:label="@string/chsec"
-84-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:74:13-42
+84-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:74:13-42
 85            android:screenOrientation="portrait" />
-85-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:75:13-49
+85-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:75:13-49
 86        <activity
-86-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:76:9-80:52
-87            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHEActivity"
-87-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:77:13-59
+86-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:76:9-80:52
+87            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHEActivity"
+87-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:77:13-59
 88            android:exported="false"
-88-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:78:13-37
+88-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:78:13-37
 89            android:label="@string/chsec"
-89-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:79:13-42
+89-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:79:13-42
 90            android:screenOrientation="portrait" />
-90-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:80:13-49
+90-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:80:13-49
 91        <activity
-91-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:81:9-85:52
-92            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS2Activity"
-92-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:82:13-59
+91-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:81:9-85:52
+92            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSS2Activity"
+92-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:82:13-59
 93            android:exported="false"
-93-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:83:13-37
+93-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:83:13-37
 94            android:label="@string/sssec"
-94-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:84:13-42
+94-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:84:13-42
 95            android:screenOrientation="portrait" />
-95-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:85:13-49
+95-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:85:13-49
 96        <activity
-96-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:86:9-90:52
-97            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS1Activity"
-97-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:87:13-59
+96-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:86:9-90:52
+97            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSS1Activity"
+97-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:87:13-59
 98            android:exported="false"
-98-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:88:13-37
+98-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:88:13-37
 99            android:label="@string/sssec"
-99-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:89:13-42
+99-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:89:13-42
 100            android:screenOrientation="portrait" />
-100-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:90:13-49
+100-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:90:13-49
 101        <activity
-101-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:91:9-100:20
-102            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.SplashscreenActivity"
-102-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:92:13-58
+101-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:91:9-100:20
+102            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.SplashscreenActivity"
+102-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:92:13-58
 103            android:screenOrientation="portrait"
-103-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:93:13-49
+103-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:93:13-49
 104            android:theme="@style/AppTheme" >
-104-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:94:13-44
+104-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:94:13-44
 105            <intent-filter>
-105-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:95:13-99:29
+105-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:95:13-99:29
 106                <action android:name="android.intent.action.MAIN" />
-106-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:96:17-69
-106-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:96:25-66
+106-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:96:17-69
+106-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:96:25-66
 107
 108                <category android:name="android.intent.category.LAUNCHER" />
-108-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:98:17-77
-108-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:98:27-74
+108-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:98:17-77
+108-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:98:27-74
 109            </intent-filter>
 110        </activity>
 111        <activity
-111-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:101:9-105:47
-112            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.LoginActivity"
-112-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:102:13-51
+111-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:101:9-105:47
+112            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity"
+112-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:102:13-51
 113            android:exported="false"
-113-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:103:13-37
+113-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:103:13-37
 114            android:screenOrientation="portrait"
-114-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:104:13-49
+114-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:104:13-49
 115            android:theme="@style/AppTheme" />
-115-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:105:13-44
+115-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:105:13-44
 116        <activity
-116-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:106:9-110:52
-117            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionInfoActivity"
-117-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:107:13-60
+116-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:106:9-110:52
+117            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionInfoActivity"
+117-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:107:13-60
 118            android:exported="false"
-118-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:108:13-37
+118-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:108:13-37
 119            android:label="@string/hhsec"
-119-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:109:13-42
+119-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:109:13-42
 120            android:screenOrientation="portrait" />
-120-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:110:13-49
+120-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:110:13-49
 121        <activity
-121-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:111:9-115:52
-122            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionHHActivity"
-122-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:112:13-58
+121-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:111:9-115:52
+122            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionHHActivity"
+122-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:112:13-58
 123            android:exported="false"
-123-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:113:13-37
+123-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:113:13-37
 124            android:label="@string/hhsec"
-124-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:114:13-42
+124-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:114:13-42
 125            android:screenOrientation="portrait" />
-125-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:115:13-49
+125-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:115:13-49
 126        <activity
-126-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:116:9-119:52
-127            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.EndingActivity"
-127-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:117:13-52
+126-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:116:9-119:52
+127            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.EndingActivity"
+127-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:117:13-52
 128            android:exported="false"
-128-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:118:13-37
+128-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:118:13-37
 129            android:screenOrientation="portrait" />
-129-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:119:13-49
+129-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:119:13-49
 130        <activity
-130-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:120:9-123:52
-131            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.ChildEndingActivity"
-131-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:121:13-57
+130-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:120:9-123:52
+131            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.ChildEndingActivity"
+131-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:121:13-57
 132            android:exported="false"
-132-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:122:13-37
+132-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:122:13-37
 133            android:screenOrientation="portrait" />
-133-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:123:13-49
+133-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:123:13-49
 134        <activity
-134-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:124:9-128:74
-135            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
-135-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:125:13-50
+134-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:124:9-128:74
+135            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.MainActivity"
+135-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:125:13-50
 136            android:exported="false"
-136-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:126:13-37
+136-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:126:13-37
 137            android:screenOrientation="portrait"
-137-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:127:13-49
+137-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:127:13-49
 138            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-138-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:128:13-71
+138-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:128:13-71
 139        <activity
-139-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:129:9-134:47
-140            android:name="edu.aku.hassannaqvi.tpvics_hh.core.AndroidManager"
-140-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:130:13-48
+139-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:129:9-134:47
+140            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.core.AndroidManager"
+140-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:130:13-48
 141            android:exported="false"
-141-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:131:13-37
-142            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
-142-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:132:13-64
+141-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:131:13-37
+142            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.MainActivity"
+142-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:132:13-64
 143            android:screenOrientation="portrait"
-143-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:133:13-49
+143-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:133:13-49
 144            android:theme="@style/AppTheme" />
-144-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:134:13-44
+144-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:134:13-44
 145        <activity
-145-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:135:9-140:47
-146            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sync.SyncActivity"
-146-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:136:13-49
+145-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:135:9-140:47
+146            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sync.SyncActivity"
+146-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:136:13-49
 147            android:exported="false"
-147-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:137:13-37
-148            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
-148-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:138:13-64
+147-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:137:13-37
+148            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.MainActivity"
+148-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:138:13-64
 149            android:screenOrientation="portrait"
-149-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:139:13-49
+149-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:139:13-49
 150            android:theme="@style/AppTheme" />
-150-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:140:13-44
+150-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:140:13-44
 151        <activity
-151-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:141:9-146:59
-152            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.TakePhoto"
-152-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:142:13-47
+151-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:141:9-146:59
+152            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.TakePhoto"
+152-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:142:13-47
 153            android:exported="false"
-153-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:143:13-37
+153-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:143:13-37
 154            android:hardwareAccelerated="true"
-154-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:144:13-47
+154-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:144:13-47
 155            android:label="@string/app_name"
-155-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:145:13-45
+155-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:145:13-45
 156            android:theme="@style/AppTheme.NoActionBar" />
-156-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:146:13-56
+156-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:146:13-56
 157
-158        <service android:name="edu.aku.hassannaqvi.tpvics_hh.utils.DownloadFileService" />
-158-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:148:9-62
-158-->C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:148:18-59
+158        <service android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.utils.DownloadFileService" />
+158-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:148:9-62
+158-->C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:148:18-59
 159
 160        <activity
 160-->[com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:12:9-14:67
@@ -328,7 +328,7 @@
 164-->[androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:31:9-37:35
 165            android:name="androidx.work.impl.WorkManagerInitializer"
 165-->[androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:32:13-69
-166            android:authorities="edu.aku.hassannaqvi.tpvics_hh.workmanager-init"
+166            android:authorities="edu.aku.hassannaqvi.tpvics_hh_shrc.workmanager-init"
 166-->[androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:33:13-68
 167            android:directBootAware="false"
 167-->[androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:34:13-44

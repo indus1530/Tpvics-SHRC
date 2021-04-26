@@ -1,2 +1,0 @@
-ninja: Entering directory `C:\AliWork\Projects\TPVICS-HH\app\.cxx\cmake\release\arm64-v8a'
-ninja: no work to do.

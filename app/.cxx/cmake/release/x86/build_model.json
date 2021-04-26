@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\x86",
-    "cmakeServerLogFile": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\x86\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cxx\\release\\x86",
+    "cmakeArtifactsBaseFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\x86",
+    "cmakeServerLogFile": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\x86\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cxx\\release\\x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\x86",
+      "buildRoot": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\x86",
       "cmakeToolchain": "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\prefab\\x86\\prefab"
+          "value": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\prefab\\x86\\prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\cmake\\release\\obj\\x86"
+          "value": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates\\cmake\\release\\obj\\x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -74,14 +74,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\x86",
+  "cxxBuildFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\x86",
   "info": {
     "abi": "X86",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\x86",
+  "originalCxxBuildFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\x86",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -98,12 +98,12 @@
         "ninjaExe": "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
       "cmakeToolchainFile": "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx",
+      "cxxFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates",
-      "makeFile": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\CMakeLists.txt",
-      "moduleBuildFile": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build.gradle",
-      "moduleRootFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app",
+      "intermediatesFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates",
+      "makeFile": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\CMakeLists.txt",
+      "moduleBuildFile": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build.gradle",
+      "moduleRootFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -169,12 +169,12 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "23.0.7123448",
       "project": {
-        "compilerSettingsCacheFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\.cxx",
-        "cxxFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\.cxx",
+        "compilerSettingsCacheFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\.cxx",
+        "cxxFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "C:\\AliWork\\Projects\\TPVICS-HH",
+        "rootBuildGradleFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC",
         "sdkFolder": "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk",
         "isPrefabEnabled": false
       },
@@ -191,7 +191,7 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\cmake\\release\\obj",
+    "objFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates\\cmake\\release\\obj",
     "variantName": "release",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -199,8 +199,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\prefab",
+    "prefabDirectory": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\.cxx\\cmake\\release\\prefab\\x86"
+  "prefabFolder": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\.cxx\\cmake\\release\\prefab\\x86"
 }

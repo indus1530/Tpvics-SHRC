@@ -4,13 +4,13 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "edu.aku.hassannaqvi.tpvics_hh",
+  "applicationId": "edu.aku.hassannaqvi.tpvics_hh_shrc",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 2293,
+      "versionCode": 2306,
       "versionName": "2.1",
       "outputFile": "AndroidManifest.xml"
     }

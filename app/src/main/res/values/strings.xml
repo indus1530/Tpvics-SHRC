@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Default Strings -->
-    <string name="app_name"> TPVICS - HOUSEHOLD SURVEY in Urdu Language </string>
+    <string name="app_name"> TPVICS SHRC - HOUSEHOLD SURVEY in Urdu Language </string>
     <string name="btnDownload">Download Data</string>
     <string name="btnUpload">Upload Data</string>
     <string name="prompt_email">Email</string>

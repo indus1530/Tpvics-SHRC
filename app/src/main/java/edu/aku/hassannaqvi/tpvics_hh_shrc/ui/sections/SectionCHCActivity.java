@@ -8,6 +8,7 @@ import android.text.TextWatcher;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 
 import com.validatorcrawler.aliazaz.Clear;
@@ -58,11 +59,7 @@ public class SectionCHCActivity extends AppCompatActivity implements EndSectionA
 
         setupListeners();
 
-        /*if (child.getCalculatedDOB() != null) {
-            int maxYears = child.getCalculatedDOB().getYear();
-            int minYears = child.getCalculatedDOB().minusYears(2).getYear();
-            setYearOfBirth(minYears, maxYears);
-        } else */
+
         if (child.getLocalDate() != null) {
             int maxYears = child.getLocalDate().getYear();
             int minYears = child.getLocalDate().minusYears(2).getYear();
@@ -86,12 +83,19 @@ public class SectionCHCActivity extends AppCompatActivity implements EndSectionA
                 Clear.clearAllFields(bi.fldGrpSecChc1, true);
                 bi.frontPhoto.setEnabled(true);
                 bi.backPhoto.setEnabled(true);
-                bi.frontPhoto.setBackground(getResources().getDrawable(R.drawable.outline_btn));
-                bi.backPhoto.setBackground(getResources().getDrawable(R.drawable.outline_btn));
+                bi.frontPhoto.setBackground(ContextCompat.getDrawable(this, R.drawable.outline_btn));
+                bi.backPhoto.setBackground(ContextCompat.getDrawable(this, R.drawable.outline_btn));
                 bi.frontFileName.setText(null);
                 bi.backFileName.setText(null);
                 im01Flag = false;
+
+
+                Clear.clearAllFields(bi.fldGrpCVim02a, false);
+
             } else {
+
+                Clear.clearAllFields(bi.fldGrpCVim02a, true);
+
                 Clear.clearAllFields(bi.fldGrpCVim03, false);
                 Clear.clearAllFields(bi.fldGrpCVim04, false);
                 Clear.clearAllFields(bi.fldGrpSecChc1, false);
@@ -113,12 +117,15 @@ public class SectionCHCActivity extends AppCompatActivity implements EndSectionA
 
             bi.frontPhoto.setEnabled(i == bi.im011.getId());
             bi.backPhoto.setEnabled(i == bi.im011.getId());
-            bi.frontPhoto.setBackground(getResources().getDrawable(R.drawable.outline_btn));
-            bi.backPhoto.setBackground(getResources().getDrawable(R.drawable.outline_btn));
+            bi.frontPhoto.setBackground(ContextCompat.getDrawable(this, R.drawable.outline_btn));
+            bi.backPhoto.setBackground(ContextCompat.getDrawable(this, R.drawable.outline_btn));
             bi.frontFileName.setText(null);
             bi.backFileName.setText(null);
 
             im01Flag = i == bi.im012.getId();
+
+
+            Clear.clearAllFields(bi.fldGrpCVim02a, i == bi.im011.getId());
         });
 
         bi.im04yy.addTextChangedListener(new TextWatcher() {

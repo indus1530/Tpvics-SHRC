@@ -42,6 +42,10 @@ public class SectionCHEActivity extends AppCompatActivity {
 
         bi.im24b98.setOnCheckedChangeListener((compoundButton, b) -> Clear.clearAllFields(bi.im24b));
 
+        bi.im24a.setOnCheckedChangeListener((compoundButton, b) -> {
+            Clear.clearAllFields(bi.fldGrpIM24A, b == bi.im24a1.getId());
+        });
+
     }
 
     private boolean UpdateDB() {

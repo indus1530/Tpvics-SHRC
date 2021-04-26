@@ -1,19 +1,19 @@
 The target system is: Android - 1 - x86_64
 The host system is: Windows - 10.0.18363 - AMD64
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_a8517"
-[1/2] Building C object CMakeFiles/cmTC_a8517.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_a8517
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_48a38"
+[1/2] Building C object CMakeFiles/cmTC_48a38.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_48a38
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4f50a"
-[1/2] Building C object CMakeFiles/cmTC_4f50a.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_4f50a
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5b443"
+[1/2] Building C object CMakeFiles/cmTC_5b443.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_5b443
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: x86_64-none-linux-android23
 Thread model: posix
@@ -23,16 +23,16 @@ Found candidate GCC installation: C:/Users/ali.azaz/AppData/Local/Android/Sdk/nd
 Selected GCC installation: C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_4f50a "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_4f50a.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"
+ "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_5b443 "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_5b443.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4f50a"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_4f50a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_4f50a]
+  ignore line: [Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5b443"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_5b443.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_5b443]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: x86_64-none-linux-android23]
   ignore line: [Thread model: posix]
@@ -44,7 +44,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_4f50a "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_4f50a.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"]
+  link line: [ "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_5b443 "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_5b443.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"]
     arg [C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld] ==> ignore
     arg [--sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -60,7 +60,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4f50a] ==> ignore
+    arg [cmTC_5b443] ==> ignore
     arg [C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o] ==> ignore
     arg [-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64] ==> dir [C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64]
     arg [-LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
@@ -78,7 +78,7 @@ Parsed C implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_4f50a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5b443.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -98,11 +98,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6a126"
-[1/2] Building C object CMakeFiles/cmTC_6a126.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_6a126
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_43317"
+[1/2] Building C object CMakeFiles/cmTC_43317.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_43317
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -112,11 +112,11 @@ Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_14995"
-[1/2] Building C object CMakeFiles/cmTC_14995.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_14995
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_8bc8e"
+[1/2] Building C object CMakeFiles/cmTC_8bc8e.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_8bc8e
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -126,11 +126,11 @@ Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_22d76"
-[1/2] Building C object CMakeFiles/cmTC_22d76.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_22d76
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6f1cc"
+[1/2] Building C object CMakeFiles/cmTC_6f1cc.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_6f1cc
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -138,19 +138,19 @@ Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6cb2f"
-[1/2] Building CXX object CMakeFiles/cmTC_6cb2f.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_6cb2f
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_4300f"
+[1/2] Building CXX object CMakeFiles/cmTC_4300f.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_4300f
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d2ae1"
-[1/2] Building CXX object CMakeFiles/cmTC_d2ae1.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_d2ae1
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ea283"
+[1/2] Building CXX object CMakeFiles/cmTC_ea283.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_ea283
 Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
 Target: x86_64-none-linux-android23
 Thread model: posix
@@ -160,16 +160,16 @@ Found candidate GCC installation: C:/Users/ali.azaz/AppData/Local/Android/Sdk/nd
 Selected GCC installation: C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_d2ae1 "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_d2ae1.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"
+ "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_ea283 "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_ea283.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_d2ae1"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_d2ae1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_d2ae1]
+  ignore line: [Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ea283"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_ea283.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_ea283]
   ignore line: [Android (6875598, based on r399163b) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)]
   ignore line: [Target: x86_64-none-linux-android23]
   ignore line: [Thread model: posix]
@@ -181,7 +181,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_d2ae1 "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_d2ae1.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"]
+  link line: [ "C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld" --sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_ea283 "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o" "-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64" -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23 -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_ea283.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtend_android.o"]
     arg [C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld] ==> ignore
     arg [--sysroot=C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -197,7 +197,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d2ae1] ==> ignore
+    arg [cmTC_ea283] ==> ignore
     arg [C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/23\\crtbegin_dynamic.o] ==> ignore
     arg [-LC:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64] ==> dir [C:\\Users\\ali.azaz\\AppData\\Local\\Android\\Sdk\\ndk\\23.0.7123448\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\11.0.5\\lib\\linux\\x86_64]
     arg [-LC:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [C:/Users/ali.azaz/AppData/Local/Android/Sdk/ndk/23.0.7123448/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
@@ -215,7 +215,7 @@ Parsed CXX implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_d2ae1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ea283.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -239,11 +239,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_1afe4"
-[1/2] Building CXX object CMakeFiles/cmTC_1afe4.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_1afe4
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_f0c86"
+[1/2] Building CXX object CMakeFiles/cmTC_f0c86.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_f0c86
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -306,11 +306,11 @@ Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6bc2e"
-[1/2] Building CXX object CMakeFiles/cmTC_6bc2e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_6bc2e
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c35f5"
+[1/2] Building CXX object CMakeFiles/cmTC_c35f5.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_c35f5
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -373,11 +373,11 @@ Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_6e1a8"
-[1/2] Building CXX object CMakeFiles/cmTC_6e1a8.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_6e1a8
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_02cf8"
+[1/2] Building CXX object CMakeFiles/cmTC_02cf8.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_02cf8
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -440,11 +440,11 @@ Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: C:/AliWork/Projects/TPVICS-HH/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
+Change Dir: C:/AliWork/Projects/TPVICS-HH-SHRC/app/.cxx/cmake/release/x86_64/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_c328f"
-[1/2] Building CXX object CMakeFiles/cmTC_c328f.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_c328f
+Run Build Command:"C:\Users\ali.azaz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_9e1fb"
+[1/2] Building CXX object CMakeFiles/cmTC_9e1fb.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_9e1fb
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

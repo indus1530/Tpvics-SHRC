@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.aku.hassannaqvi.tpvics_hh"
+    package="edu.aku.hassannaqvi.tpvics_hh_shrc"
     android:installLocation="preferExternal"
-    android:versionCode="2293"
+    android:versionCode="2306"
     android:versionName="2.1" >
 
     <uses-sdk
@@ -29,7 +29,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name="edu.aku.hassannaqvi.tpvics_hh.core.MainApp"
+        android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.core.MainApp"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -42,64 +42,64 @@
         android:theme="@style/AppTheme1"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportCluster"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.FormsReportCluster"
             android:exported="false"
             android:label="Forms Report"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportDate"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.FormsReportDate"
             android:exported="false"
             android:label="Forms Report"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.PendingFormsActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.PendingFormsActivity"
             android:exported="false"
             android:label="Unfinished Forms"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSubInfoActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSubInfoActivity"
             android:exported="false"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHAActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHAActivity"
             android:exported="false"
             android:label="@string/ch_title"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHBActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHBActivity"
             android:exported="false"
             android:label="@string/chBsec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHCActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHCActivity"
             android:exported="false"
             android:label="@string/chsec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHDActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHDActivity"
             android:exported="false"
             android:label="@string/chsec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHEActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHEActivity"
             android:exported="false"
             android:label="@string/chsec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS2Activity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSS2Activity"
             android:exported="false"
             android:label="@string/sssec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS1Activity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSS1Activity"
             android:exported="false"
             android:label="@string/sssec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.SplashscreenActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.SplashscreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
             <intent-filter>
@@ -109,53 +109,53 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.LoginActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionInfoActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionInfoActivity"
             android:exported="false"
             android:label="@string/hhsec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionHHActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionHHActivity"
             android:exported="false"
             android:label="@string/hhsec"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.EndingActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.EndingActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.ChildEndingActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.ChildEndingActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.core.AndroidManager"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.core.AndroidManager"
             android:exported="false"
-            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
+            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.sync.SyncActivity"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sync.SyncActivity"
             android:exported="false"
-            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity"
+            android:parentActivityName="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="edu.aku.hassannaqvi.tpvics_hh.ui.other.TakePhoto"
+            android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.TakePhoto"
             android:exported="false"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <service android:name="edu.aku.hassannaqvi.tpvics_hh.utils.DownloadFileService" />
+        <service android:name="edu.aku.hassannaqvi.tpvics_hh_shrc.utils.DownloadFileService" />
 
         <activity
             android:name="com.nabinbhandari.android.permissions.PermissionsActivity"
@@ -163,7 +163,7 @@
 
         <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="edu.aku.hassannaqvi.tpvics_hh.workmanager-init"
+            android:authorities="edu.aku.hassannaqvi.tpvics_hh_shrc.workmanager-init"
             android:directBootAware="false"
             android:exported="false"
             android:multiprocess="true" />

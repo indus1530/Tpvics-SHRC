@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AliWork\\Projects\\TPVICS-HH\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "outputFile": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ali.azaz\\.gradle\\caches\\transforms-2\\files-2.1\\4cd371e3511d7c8cbae331f03d7ed817\\jetified-sdp-android-1.0.5\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",

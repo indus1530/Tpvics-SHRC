@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\27265bce157a130bff7135e2276b9ce1\databinding-adapters-4.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e25436c161afd08a436ef6315d13cab7\databinding-runtime-4.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.arcadefire:nice-spinner:1.4.4] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eb7697bf2369efa29e3b62f36dd1e0f6\jetified-nice-spinner-1.4.4\AndroidManifest.xml:2:1-9:12
@@ -83,93 +83,93 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ali.azaz\.gradle\ca
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\2aa5e5a6a997d5c7425ecea4df76cd34\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\15aa155ad0ec2eb1991fa443b30ecfef\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eab18efd4be1a2e03cd499dba5cb55e9\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
 	package
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:4:5-44
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:4:5-49
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:1-151:12
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:1-151:12
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:5:5-45
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:5:5-45
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:7:22-76
 uses-feature#android.hardware.location.gps
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:8:5-66
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:8:19-63
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:8:19-63
 uses-permission#android.permission.INTERNET
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:11:5-79
 MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:26:5-79
 MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.hardware.location.gps
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:12:5-69
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:12:5-69
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:12:22-66
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:12:22-66
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:13:5-71
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:13:5-71
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:13:22-68
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:13:22-68
 uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:14:5-86
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:14:5-86
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:14:22-83
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:14:22-83
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:15:5-71
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:15:5-71
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:15:22-68
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:15:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:16:5-72
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:16:5-72
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:16:22-69
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:16:22-69
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:17:5-73
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:17:5-73
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:17:22-70
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:17:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:18:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:19:5-80
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:19:5-80
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:19:22-77
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:19:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:20:5-75
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:20:5-75
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:20:22-72
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:20:22-72
 uses-permission#android.permission.CAMERA
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:21:5-65
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:21:22-62
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:21:22-62
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:22:5-68
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:22:5-68
 MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:25:5-68
 MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:22:22-65
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:22:22-65
 application
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:24:5-149:19
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:24:5-149:19
 MERGED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\faecea335808a370d43ddf9ed7c5a1e9\material-1.3.0\AndroidManifest.xml:22:5-20
@@ -201,259 +201,259 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\ali.azaz\.gra
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\da8281e6c7ec174595afb6c260ec77ca\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:29:9-45
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:29:9-45
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\8bced359853724a0d6d7c2c5cef263a4\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:30:9-35
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:28:9-41
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:28:9-41
 	android:icon
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:27:9-46
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:27:9-46
 	android:allowBackup
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:26:9-36
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:26:9-36
 		REJECTED from [com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\9c4aa86b4a1a317c44e27112d1f9dad0\jetified-datetimepicker-edittext-v0.4.0\AndroidManifest.xml:12:9-35
 		REJECTED from [com.github.Shashank02051997:FancyToast-Android:0.1.6] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1a0d96e0c18a24eb3d185aab19caa960\jetified-FancyToast-Android-0.1.6\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:32:9-41
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:31:9-41
 	tools:replace
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:33:9-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:33:9-44
 	android:usesCleartextTraffic
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:31:9-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:32:9-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:25:9-37
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportCluster
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:34:9-39:47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:25:9-71
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.FormsReportCluster
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:34:9-39:47
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:38:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:37:13-41
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:36:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:39:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:39:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:35:13-64
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.FormsReportDate
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:40:9-45:47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:35:13-64
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.FormsReportDate
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:40:9-45:47
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:44:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:43:13-41
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:43:13-41
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:42:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:45:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:45:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:41:13-61
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.list_activity.PendingFormsActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:46:9-51:47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:41:13-61
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.list_activity.PendingFormsActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:46:9-51:47
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:50:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:49:13-45
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:49:13-45
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:48:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:51:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:51:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:47:13-66
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSubInfoActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:52:9-55:47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:47:13-66
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSubInfoActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:52:9-55:47
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:54:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:54:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:55:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:55:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:53:13-63
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHAActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:56:9-60:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:53:13-63
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHAActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:56:9-60:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:59:13-45
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:59:13-45
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:57:13-59
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHBActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:61:9-65:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:57:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHBActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:61:9-65:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:65:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:64:13-43
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:64:13-43
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:63:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:62:13-59
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHCActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:66:9-70:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:62:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHCActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:66:9-70:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:70:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:70:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:69:13-42
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:69:13-42
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:68:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:68:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:67:13-59
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHDActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:71:9-75:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:67:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHDActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:71:9-75:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:75:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:75:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:74:13-42
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:74:13-42
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:73:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:72:13-59
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionCHEActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:76:9-80:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:72:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionCHEActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:76:9-80:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:80:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:79:13-42
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:79:13-42
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:78:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:78:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:77:13-59
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS2Activity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:81:9-85:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:77:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSS2Activity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:81:9-85:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:85:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:85:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:84:13-42
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:84:13-42
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:83:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:83:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:82:13-59
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionSS1Activity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:86:9-90:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:82:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionSS1Activity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:86:9-90:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:90:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:90:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:89:13-42
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:89:13-42
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:88:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:87:13-59
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.SplashscreenActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:91:9-100:20
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:87:13-59
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.SplashscreenActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:91:9-100:20
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:93:13-49
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:94:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:94:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:92:13-58
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:92:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:95:13-99:29
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:95:13-99:29
 action#android.intent.action.MAIN
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:96:17-69
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:96:17-69
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:96:25-66
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:96:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:98:17-77
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:98:17-77
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:98:27-74
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.LoginActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:101:9-105:47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:98:27-74
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:101:9-105:47
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:104:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:104:13-49
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:103:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:103:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:105:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:105:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:102:13-51
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionInfoActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:106:9-110:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:102:13-51
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionInfoActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:106:9-110:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:110:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:110:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:109:13-42
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:109:13-42
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:108:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:108:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:107:13-60
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sections.SectionHHActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:111:9-115:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:107:13-60
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sections.SectionHHActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:111:9-115:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:115:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:115:13-49
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:114:13-42
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:114:13-42
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:113:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:113:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:112:13-58
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.EndingActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:116:9-119:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:112:13-58
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.EndingActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:116:9-119:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:119:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:119:13-49
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:118:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:118:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:117:13-52
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.ChildEndingActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:120:9-123:52
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:117:13-52
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.ChildEndingActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:120:9-123:52
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:123:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:123:13-49
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:122:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:122:13-37
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:121:13-57
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.MainActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:124:9-128:74
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:121:13-57
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.MainActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:124:9-128:74
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:127:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:127:13-49
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:126:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:126:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:128:13-71
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:128:13-71
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:125:13-50
-activity#edu.aku.hassannaqvi.tpvics_hh.core.AndroidManager
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:129:9-134:47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:125:13-50
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.core.AndroidManager
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:129:9-134:47
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:133:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:133:13-49
 	android:parentActivityName
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:132:13-64
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:132:13-64
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:131:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:131:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:134:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:134:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:130:13-48
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.sync.SyncActivity
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:135:9-140:47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:130:13-48
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.sync.SyncActivity
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:135:9-140:47
 	android:screenOrientation
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:139:13-49
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:139:13-49
 	android:parentActivityName
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:138:13-64
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:138:13-64
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:137:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:137:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:140:13-44
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:140:13-44
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:136:13-49
-activity#edu.aku.hassannaqvi.tpvics_hh.ui.other.TakePhoto
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:141:9-146:59
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:136:13-49
+activity#edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.TakePhoto
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:141:9-146:59
 	android:label
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:145:13-45
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:145:13-45
 	android:hardwareAccelerated
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:144:13-47
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:144:13-47
 	android:exported
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:143:13-37
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:143:13-37
 	android:theme
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:146:13-56
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:146:13-56
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:142:13-47
-service#edu.aku.hassannaqvi.tpvics_hh.utils.DownloadFileService
-ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:148:9-62
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:142:13-47
+service#edu.aku.hassannaqvi.tpvics_hh_shrc.utils.DownloadFileService
+ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:148:9-62
 	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml:148:18-59
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:148:18-59
 uses-sdk
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\27265bce157a130bff7135e2276b9ce1\databinding-adapters-4.1.2\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\27265bce157a130bff7135e2276b9ce1\databinding-adapters-4.1.2\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.1.2] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e25436c161afd08a436ef6315d13cab7\databinding-runtime-4.1.2\AndroidManifest.xml:22:5-44
@@ -612,16 +612,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ali.aza
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\15aa155ad0ec2eb1991fa443b30ecfef\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eab18efd4be1a2e03cd499dba5cb55e9\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\eab18efd4be1a2e03cd499dba5cb55e9\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-		ADDED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
-		INJECTED from C:\AliWork\Projects\TPVICS-HH\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml
 activity#com.nabinbhandari.android.permissions.PermissionsActivity
 ADDED from [com.nabinbhandari.android:permissions:3.8] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\e2f847b626bb897bbdf3f95c943ccc06\jetified-permissions-3.8\AndroidManifest.xml:12:9-14:67
 	android:theme
