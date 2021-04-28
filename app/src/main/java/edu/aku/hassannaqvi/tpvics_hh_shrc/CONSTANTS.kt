@@ -39,7 +39,7 @@ class CONSTANTS {
         const val BACKUP_DT = "backupDT"
 
         //Sync activity
-        const val SYNC_DISTRICTID_LOGIN = "district_id_login"
+        const val SYNC_UCID_LOGIN = "district_id_login"
         const val SYNC_LOGIN = "sync_login"
 
     }

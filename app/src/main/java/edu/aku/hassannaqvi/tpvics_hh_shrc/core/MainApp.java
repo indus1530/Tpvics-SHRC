@@ -55,7 +55,7 @@ public class MainApp extends Application {
     public static String DeviceURL = "devices.php";
     public static String IMEI;
     public static LocationManager locationManager;
-    public static String DIST_ID;
+    public static String UC_ID;
 
     public static File sdDir;
     public static String[] downloadData;

@@ -35,7 +35,10 @@ import edu.aku.hassannaqvi.tpvics_hh_shrc.models.BLRandom;
 import edu.aku.hassannaqvi.tpvics_hh_shrc.models.Clusters;
 import edu.aku.hassannaqvi.tpvics_hh_shrc.models.FormsContract;
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
+import io.reactivex.rxjava3.annotations.NonNull;
 import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.core.Observer;
+import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.functions.Function;
 import io.reactivex.rxjava3.schedulers.Schedulers;
 
@@ -200,19 +203,38 @@ public class SectionInfoActivity extends AppCompatActivity {
         getEnumerationBlock()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(enumBlockContract -> {
-                    MainApp.clusters = enumBlockContract;
-                    String selected = enumBlockContract.getGeoarea();
-                    if (!selected.equals("")) {
-                        String[] selSplit = selected.split("\\|");
-                        bi.fldGrpSectionA01.setVisibility(View.VISIBLE);
-                        bi.hh09txt.setText(selSplit[3]);
-                        bi.geoarea.setText(new StringBuilder(selSplit[2]).append(", ").append(selSplit[1]).append(", ").append(selSplit[0]));
+                .subscribe(new Observer<Clusters>() {
+                    Disposable disposable;
+
+                    @Override
+                    public void onSubscribe(@NonNull Disposable d) {
+                        disposable = d;
                     }
-                }, error -> {
-                    Toast.makeText(this, "Sorry cluster not found!!", Toast.LENGTH_SHORT).show();
-                    bi.hh09txt.setText("Village");
-                    bi.geoarea.setText(new StringBuilder("Tehsil").append(", ").append("District").append(", ").append("Province"));
+
+                    @Override
+                    public void onNext(@NonNull Clusters enumBlockContract) {
+                        MainApp.clusters = enumBlockContract;
+                        String selected = enumBlockContract.getGeoarea();
+                        if (!selected.equals("")) {
+                            String[] selSplit = selected.split("\\|");
+                            bi.fldGrpSectionA01.setVisibility(View.VISIBLE);
+                            bi.hh09txt.setText(selSplit[3]);
+                            bi.geoarea.setText(new StringBuilder(selSplit[2]).append(", ").append(selSplit[1]).append(", ").append(selSplit[0]));
+                        }
+                    }
+
+                    @Override
+                    public void onError(@NonNull Throwable e) {
+                        Toast.makeText(SectionInfoActivity.this, "Sorry cluster not found!!", Toast.LENGTH_SHORT).show();
+                        bi.hh09txt.setText("Village");
+                        bi.geoarea.setText(new StringBuilder("Tehsil").append(", ").append("District").append(", ").append("Province"));
+                        disposable.dispose();
+                    }
+
+                    @Override
+                    public void onComplete() {
+                        disposable.dispose();
+                    }
                 });
     }
 
@@ -256,10 +278,31 @@ public class SectionInfoActivity extends AppCompatActivity {
                         return false;
                     } else return true;
                 })
-                .subscribe(form -> {
-                    MainApp.fc = form;
-                    blRandomExist(bl, message, true);
-                }, error -> blRandomExist(bl, message, true));
+                .subscribe(new Observer<FormsContract>() {
+                    Disposable disposable;
+
+                    @Override
+                    public void onSubscribe(@NonNull Disposable d) {
+                        disposable = d;
+                    }
+
+                    @Override
+                    public void onNext(@NonNull FormsContract form) {
+                        MainApp.fc = form;
+                        blRandomExist(bl, message, true);
+                    }
+
+                    @Override
+                    public void onError(@NonNull Throwable e) {
+                        blRandomExist(bl, message, true);
+                        disposable.dispose();
+                    }
+
+                    @Override
+                    public void onComplete() {
+                        disposable.dispose();
+                    }
+                });
 
     }
 

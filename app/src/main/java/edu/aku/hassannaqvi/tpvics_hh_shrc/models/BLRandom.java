@@ -207,9 +207,7 @@ public class BLRandom {
         public static final String COLUMN_HH_SELECTED_STRUCT = "hhss";
         public static final String COLUMN_SNO_HH = "sno";
         public static final String COLUMN_TAB_NO = "tabNo";
-        public static String COLUMN_DIST_CODE = "dist_id";
-
-        public static String _URI = "bl_random.php";
+        public static String COLUMN_UC_ID = "uc_id";
     }
 
 }

@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity implements WarningActivityIn
             case R.id.onSync:
                 intent = new Intent(MainActivity.this, SyncActivity.class)
                         .putExtra(CONSTANTS.SYNC_LOGIN, true)
-                        .putExtra(CONSTANTS.SYNC_DISTRICTID_LOGIN, MainApp.DIST_ID);
+                        .putExtra(CONSTANTS.SYNC_UCID_LOGIN, MainApp.UC_ID);
                 break;
             case R.id.checkOpenForms:
                 intent = new Intent(MainActivity.this, PendingFormsActivity.class);

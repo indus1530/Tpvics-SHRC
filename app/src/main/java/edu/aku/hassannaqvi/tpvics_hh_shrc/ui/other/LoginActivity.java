@@ -257,7 +257,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0)
                     return;
-                MainApp.DIST_ID = uc_id.get(position - 1);
+                MainApp.UC_ID = uc_id.get(position - 1);
             }
 
             @Override
@@ -757,7 +757,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
                             || (mEmail.equals("test1234") && mPassword.equals("test1234")) || MainApp.user != null) {
 
                         if (MainApp.user == null) {
-                            MainApp.user = new Users(mEmail, MainApp.DIST_ID);
+                            MainApp.user = new Users(mEmail, MainApp.UC_ID);
                         }
 
                         MainApp.admin = mEmail.contains("@");

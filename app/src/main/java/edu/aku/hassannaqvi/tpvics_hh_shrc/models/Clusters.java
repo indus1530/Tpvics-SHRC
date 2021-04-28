@@ -14,6 +14,7 @@ public class Clusters {
     String ebcode;
     String geoarea;
     String cluster;
+    String uc_id;
 
     public Clusters() {
         // Default Constructor
@@ -24,6 +25,7 @@ public class Clusters {
         this.ebcode = jsonObject.getString(ClusterTable.COLUMN_ENUM_BLOCK_CODE);
         this.geoarea = jsonObject.getString(ClusterTable.COLUMN_GEO_AREA);
         this.cluster = jsonObject.getString(ClusterTable.COLUMN_CLUSTER_AREA);
+        this.uc_id = jsonObject.getString(ClusterTable.COLUMN_UC_ID);
         return this;
     }
 
@@ -32,6 +34,7 @@ public class Clusters {
         this.dist_code = cursor.getString(cursor.getColumnIndex(ClusterTable.COLUMN_DIST_CODE));
         this.geoarea = cursor.getString(cursor.getColumnIndex(ClusterTable.COLUMN_GEO_AREA));
         this.cluster = cursor.getString(cursor.getColumnIndex(ClusterTable.COLUMN_CLUSTER_AREA));
+        this.uc_id = cursor.getString(cursor.getColumnIndex(ClusterTable.COLUMN_UC_ID));
         return this;
     }
 
@@ -67,6 +70,14 @@ public class Clusters {
         this.cluster = cluster;
     }
 
+    public String getUc_id() {
+        return uc_id;
+    }
+
+    public void setUc_id(String uc_id) {
+        this.uc_id = uc_id;
+    }
+
     public JSONObject toJSONObject() throws JSONException {
 
         JSONObject json = new JSONObject();
@@ -74,6 +85,7 @@ public class Clusters {
         json.put(ClusterTable.COLUMN_DIST_CODE, this.dist_code == null ? JSONObject.NULL : this.dist_code);
         json.put(ClusterTable.COLUMN_GEO_AREA, this.geoarea == null ? JSONObject.NULL : this.geoarea);
         json.put(ClusterTable.COLUMN_CLUSTER_AREA, this.cluster == null ? JSONObject.NULL : this.cluster);
+        json.put(ClusterTable.COLUMN_UC_ID, this.uc_id == null ? JSONObject.NULL : this.uc_id);
         return json;
     }
 
@@ -85,5 +97,6 @@ public class Clusters {
         public static final String COLUMN_ENUM_BLOCK_CODE = "ebcode";
         public static final String COLUMN_GEO_AREA = "geoarea";
         public static final String COLUMN_CLUSTER_AREA = "cluster_no";
+        public static final String COLUMN_UC_ID = "uc_id";
     }
 }

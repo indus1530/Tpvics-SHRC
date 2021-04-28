@@ -76,7 +76,8 @@ object CreateTable {
             Clusters.ClusterTable.COLUMN_DIST_CODE + " TEXT, " +
             Clusters.ClusterTable.COLUMN_ENUM_BLOCK_CODE + " TEXT, " +
             Clusters.ClusterTable.COLUMN_GEO_AREA + " TEXT, " +
-            Clusters.ClusterTable.COLUMN_CLUSTER_AREA + " TEXT " +
+            Clusters.ClusterTable.COLUMN_CLUSTER_AREA + " TEXT, " +
+            Clusters.ClusterTable.COLUMN_UC_ID + " TEXT " +
             ");"
 
     const val SQL_CREATE_CHILD_TABLE = ("CREATE TABLE " + ChildTable.TABLE_NAME + "("

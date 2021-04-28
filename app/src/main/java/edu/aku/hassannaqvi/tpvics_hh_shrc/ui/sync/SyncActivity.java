@@ -143,7 +143,7 @@ public class SyncActivity extends AppCompatActivity {
                 downloadTables.clear();
                 boolean sync_flag = getIntent().getBooleanExtra(CONSTANTS.SYNC_LOGIN, false);
                 if (sync_flag) {
-                    distCode = getIntent().getStringExtra(CONSTANTS.SYNC_DISTRICTID_LOGIN);
+                    distCode = getIntent().getStringExtra(CONSTANTS.SYNC_UCID_LOGIN);
                     downloadTables.add(new SyncModel(BLRandom.BLRandomHHTable.TABLE_NAME.toLowerCase()));
                     downloadTables.add(new SyncModel(Clusters.ClusterTable.TABLE_NAME.toLowerCase()));
                 } else {
@@ -287,9 +287,9 @@ public class SyncActivity extends AppCompatActivity {
                     // .putString("where", where)
                     ;
             if (downloadTables.get(i).gettableName().equals(BLRandom.BLRandomHHTable.TABLE_NAME)) {
-                data.putString("where", BLRandom.BLRandomHHTable.COLUMN_DIST_CODE + "='" + distCode + "'");
+                data.putString("where", BLRandom.BLRandomHHTable.COLUMN_UC_ID + "='" + distCode + "'");
             } else if (downloadTables.get(i).gettableName().equals(Clusters.ClusterTable.TABLE_NAME)) {
-                data.putString("where", Clusters.ClusterTable.COLUMN_DIST_CODE + "='" + distCode + "'");
+                data.putString("where", Clusters.ClusterTable.COLUMN_UC_ID + "='" + distCode + "'");
             }
             workRequests.add(new OneTimeWorkRequest.Builder(DataDownWorkerALL.class)
                     .addTag(String.valueOf(i))

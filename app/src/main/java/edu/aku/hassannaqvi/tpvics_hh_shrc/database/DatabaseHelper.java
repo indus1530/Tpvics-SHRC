@@ -77,30 +77,24 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         int insertCount = 0;
 
         for (int i = 0; i < enumList.length(); i++) {
-            JSONObject jsonObjectCC = null;
+            JSONObject jsonObjectCC;
             try {
                 jsonObjectCC = enumList.getJSONObject(i);
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-
-            Clusters Vc = new Clusters();
-            try {
+                Clusters Vc = new Clusters();
                 Vc.Sync(jsonObjectCC);
+                ContentValues values = new ContentValues();
+                values.put(ClusterTable.COLUMN_DIST_CODE, Vc.getDist_code());
+                values.put(ClusterTable.COLUMN_ENUM_BLOCK_CODE, Vc.getEbcode());
+                values.put(ClusterTable.COLUMN_GEO_AREA, Vc.getGeoarea());
+                values.put(ClusterTable.COLUMN_CLUSTER_AREA, Vc.getCluster());
+                values.put(ClusterTable.COLUMN_UC_ID, Vc.getUc_id());
+
+                db.insert(ClusterTable.TABLE_NAME, null, values);
+                long rowID = db.insert(ClusterTable.TABLE_NAME, null, values);
+                if (rowID != -1) insertCount++;
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
-            ContentValues values = new ContentValues();
-
-            values.put(ClusterTable.COLUMN_DIST_CODE, Vc.getDist_code());
-            values.put(ClusterTable.COLUMN_ENUM_BLOCK_CODE, Vc.getEbcode());
-            values.put(ClusterTable.COLUMN_GEO_AREA, Vc.getGeoarea());
-            values.put(ClusterTable.COLUMN_CLUSTER_AREA, Vc.getCluster());
-
-            db.insert(ClusterTable.TABLE_NAME, null, values);
-            long rowID = db.insert(ClusterTable.TABLE_NAME, null, values);
-            if (rowID != -1) insertCount++;
         }
         return insertCount;
     }
@@ -747,13 +741,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = null;
-        String[] columns = {
-                ClusterTable._ID,
-                ClusterTable.COLUMN_DIST_CODE,
-                ClusterTable.COLUMN_ENUM_BLOCK_CODE,
-                ClusterTable.COLUMN_GEO_AREA,
-                ClusterTable.COLUMN_CLUSTER_AREA
-        };
+        String[] columns = null;
 
         String whereClause = ClusterTable.COLUMN_CLUSTER_AREA + " =?";
         String[] whereArgs = {cluster};
