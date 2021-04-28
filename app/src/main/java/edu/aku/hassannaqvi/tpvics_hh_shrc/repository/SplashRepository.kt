@@ -5,10 +5,7 @@ import android.widget.ArrayAdapter
 import edu.aku.hassannaqvi.tpvics_hh_shrc.database.DatabaseHelper
 import edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.SplashscreenActivity.Companion.districtsMap
 import edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.SplashscreenActivity.Companion.provinces
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import kotlinx.coroutines.*
 
 private suspend fun getEnumGeoArea(context: Context) = withContext(Dispatchers.IO) {
     val db = DatabaseHelper(context)
@@ -40,7 +37,7 @@ suspend fun setProvinceDistricts(context: Context, def: MutableMap<String, Strin
 }
 
 suspend fun populatingSpinners(context: Context, adapter: ArrayAdapter<String>) {
-    GlobalScope.launch {
+    CoroutineScope(Dispatchers.IO).launch {
         val def = withContext(Dispatchers.Main) { getEnumData(context) }
         if (def.isNotEmpty())
             withContext(Dispatchers.Main) { setProvinceDistricts(context, def, adapter) }

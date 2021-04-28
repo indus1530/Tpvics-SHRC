@@ -215,6 +215,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 values.put(Districts.DistrictTable.COLUMN_DIST_ID, dist.getDist_id());
                 values.put(Districts.DistrictTable.COLUMN_DIST_NAME, dist.getDistrict());
                 values.put(Districts.DistrictTable.COLUMN_PROVINCE_NAME, dist.getProvince());
+                values.put(Districts.DistrictTable.COLUMN_UC_NAME, dist.getUc_name());
+                values.put(Districts.DistrictTable.COLUMN_UC_ID, dist.getUc_id());
                 long rowID = db.insert(Districts.DistrictTable.TABLE_NAME, null, values);
                 if (rowID != -1) insertCount++;
             }
@@ -912,6 +914,43 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         String whereClause = null;
         String[] whereArgs = null;
+        String groupBy = null;
+        String having = null;
+
+        String orderBy = Districts.DistrictTable.COLUMN_ID + " ASC";
+        List<Districts> allEB = new ArrayList<>();
+        try {
+            c = db.query(
+                    Districts.DistrictTable.TABLE_NAME,  // The table to query
+                    columns,                   // The columns to return
+                    whereClause,               // The columns for the WHERE clause
+                    whereArgs,                 // The values for the WHERE clause
+                    groupBy,                   // don't group the rows
+                    having,                    // don't filter by row groups
+                    orderBy                    // The sort order
+            );
+            while (c.moveToNext()) {
+                allEB.add(new Districts().hydrate(c));
+            }
+        } finally {
+            if (c != null) {
+                c.close();
+            }
+            if (db != null) {
+                db.close();
+            }
+        }
+        return allEB;
+    }
+
+    public List<Districts> getDistrictUC(String dist_id) {
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor c = null;
+        String[] columns = null;
+
+        String whereClause = Districts.DistrictTable.COLUMN_DIST_ID + "=?";
+        String[] whereArgs = {dist_id};
         String groupBy = null;
         String having = null;
 

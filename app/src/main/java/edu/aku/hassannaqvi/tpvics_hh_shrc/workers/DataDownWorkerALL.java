@@ -18,6 +18,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.security.KeyManagementException;
 import java.security.KeyStore;
@@ -50,7 +51,7 @@ public class DataDownWorkerALL extends Worker {
     private final String uploadTable;
     private final String uploadWhere;
     private final NotificationUtils notify;
-    HttpsURLConnection urlConnection;
+    HttpURLConnection urlConnection;
 
     public DataDownWorkerALL(@NonNull Context context, @NonNull WorkerParameters workerParams) {
         super(context, workerParams);
@@ -123,8 +124,8 @@ public class DataDownWorkerALL extends Worker {
         try {
             url = new URL(MainApp._HOST_URL + MainApp._SERVER_GET_URL);
             Timber.tag(TAG).d("doWork: Connecting...");
-            urlConnection = (HttpsURLConnection) url.openConnection();
-            urlConnection.setSSLSocketFactory(buildSslSocketFactory(mContext));
+            urlConnection = (HttpURLConnection) url.openConnection();
+//            urlConnection.setSSLSocketFactory(buildSslSocketFactory(mContext));
             urlConnection.setReadTimeout(100000 /* milliseconds */);
             urlConnection.setConnectTimeout(150000 /* milliseconds */);
             urlConnection.setRequestMethod("POST");

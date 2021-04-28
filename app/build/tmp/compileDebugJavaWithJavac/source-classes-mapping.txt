@@ -228,10 +228,12 @@ edu/aku/hassannaqvi/tpvics_hh_shrc/ui/other/LoginActivity.java
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$1
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$2
+ edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$2$1
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$3
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$4
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$5
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$6
+ edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$7
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$GPSLocationListener
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$ProfileQuery
  edu.aku.hassannaqvi.tpvics_hh_shrc.ui.other.LoginActivity$UserLoginTask

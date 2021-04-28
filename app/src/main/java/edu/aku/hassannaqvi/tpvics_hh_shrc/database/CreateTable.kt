@@ -107,5 +107,8 @@ object CreateTable {
             + Districts.DistrictTable.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
             + Districts.DistrictTable.COLUMN_DIST_ID + " TEXT,"
             + Districts.DistrictTable.COLUMN_DIST_NAME + " TEXT,"
-            + Districts.DistrictTable.COLUMN_PROVINCE_NAME + " TEXT );")
+            + Districts.DistrictTable.COLUMN_PROVINCE_NAME + " TEXT, "
+            + Districts.DistrictTable.COLUMN_UC_NAME + " TEXT, "
+            + Districts.DistrictTable.COLUMN_UC_ID + " TEXT " +
+            ");")
 }
