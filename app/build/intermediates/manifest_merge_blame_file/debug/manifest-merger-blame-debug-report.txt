@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="edu.aku.hassannaqvi.tpvics_hh_shrc"
 4    android:installLocation="preferExternal"
-5    android:versionCode="2322"
+5    android:versionCode="2323"
 6    android:versionName="0.1" >
 7
 8    <uses-sdk
