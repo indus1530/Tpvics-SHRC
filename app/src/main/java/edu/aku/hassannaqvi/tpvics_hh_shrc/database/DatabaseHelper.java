@@ -633,17 +633,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public ArrayList<FormsContract> getUnclosedForms() {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = null;
-        String[] columns = {
-                FormsTable._ID,
-                FormsTable.COLUMN_UID,
-                FormsTable.COLUMN_FORMDATE,
-                FormsTable.COLUMN_SYSDATE,
-                FormsTable.COLUMN_CLUSTERCODE,
-                FormsTable.COLUMN_HHNO,
-                FormsTable.COLUMN_ISTATUS,
-                FormsTable.COLUMN_FSTATUS,
-                FormsTable.COLUMN_SYNCED,
-        };
+        String[] columns = null;
         String whereClause = FormsTable.COLUMN_ISTATUS + " = ''";
         String[] whereArgs = null;
 //        String[] whereArgs = new String[]{"%" + spDateT.substring(0, 8).trim() + "%"};
@@ -689,20 +679,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = null;
 
-        String[] columns = {
-                BLRandomHHTable.COLUMN_ID,
-                BLRandomHHTable.COLUMN_LUID,
-                BLRandomHHTable.COLUMN_STRUCTURE_NO,
-                BLRandomHHTable.COLUMN_FAMILY_EXT_CODE,
-                BLRandomHHTable.COLUMN_HH,
-                BLRandomHHTable.COLUMN_P_CODE,
-                BLRandomHHTable.COLUMN_EB_CODE,
-                BLRandomHHTable.COLUMN_RANDOMDT,
-                BLRandomHHTable.COLUMN_HH_SELECTED_STRUCT,
-                BLRandomHHTable.COLUMN_CONTACT,
-                BLRandomHHTable.COLUMN_HH_HEAD,
-                BLRandomHHTable.COLUMN_SNO_HH
-        };
+        String[] columns = null;
 
         String whereClause = BLRandomHHTable.COLUMN_P_CODE + "=? AND " + BLRandomHHTable.COLUMN_HH + "=?";
         String[] whereArgs = new String[]{subAreaCode, hh};
@@ -778,28 +755,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public List<ChildContract> getFilledChildForms(String clusterCode, String hhNo, String uuid) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = null;
-        String[] columns = {
-                ChildTable._ID,
-                ChildTable.COLUMN_UID,
-                ChildTable.COLUMN_UUID,
-                ChildTable.COLUMN_DEVICEID,
-                ChildTable.COLUMN_FORMDATE,
-                ChildTable.COLUMN_SYSDATE,
-                ChildTable.COLUMN_USER,
-                ChildTable.COLUMN_SCA,
-                ChildTable.COLUMN_SCB,
-                ChildTable.COLUMN_SCC,
-                ChildTable.COLUMN_DEVICETAGID,
-                ChildTable.COLUMN_CHILDNAME,
-                ChildTable.COLUMN_CHILDSERIAL,
-                ChildTable.COLUMN_GENDER,
-                ChildTable.COLUMN_AGEY,
-                ChildTable.COLUMN_AGEM,
-                ChildTable.COLUMN_CLUSTERCODE,
-                ChildTable.COLUMN_HHNO,
-                ChildTable.COLUMN_CSTATUS,
-                ChildTable.COLUMN_CSTATUS88x,
-        };
+        String[] columns = null;
 
         String whereClause = ChildTable.COLUMN_CLUSTERCODE + "=? AND " + ChildTable.COLUMN_HHNO + "=? AND " + ChildTable.COLUMN_UUID + "=? AND (" + ChildTable.COLUMN_CSTATUS + " is not null OR " + ChildTable.COLUMN_CSTATUS + " !='')";
         String[] whereArgs = {clusterCode, hhNo, uuid};
@@ -834,34 +790,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public FormsContract getFilledForm(String clusterCode, String hhNo) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = null;
-        String[] columns = {
-                FormsTable._ID,
-                FormsTable.COLUMN_UID,
-                FormsTable.COLUMN_FORMDATE,
-                FormsTable.COLUMN_SYSDATE,
-                FormsTable.COLUMN_USER,
-                FormsTable.COLUMN_ISTATUS,
-                FormsTable.COLUMN_ISTATUS88x,
-                FormsTable.COLUMN_FSTATUS,
-                FormsTable.COLUMN_FSTATUS88x,
-                FormsTable.COLUMN_LUID,
-                FormsTable.COLUMN_ENDINGDATETIME,
-                FormsTable.COLUMN_SINFO,
-                FormsTable.COLUMN_SE,
-                FormsTable.COLUMN_SM,
-                FormsTable.COLUMN_SN,
-                FormsTable.COLUMN_SO,
-                FormsTable.COLUMN_GPSLAT,
-                FormsTable.COLUMN_GPSLNG,
-                FormsTable.COLUMN_GPSDATE,
-                FormsTable.COLUMN_GPSACC,
-                FormsTable.COLUMN_DEVICETAGID,
-                FormsTable.COLUMN_DEVICEID,
-                FormsTable.COLUMN_APPVERSION,
-                FormsTable.COLUMN_CLUSTERCODE,
-                FormsTable.COLUMN_HHNO,
-                FormsTable.COLUMN_FORMTYPE
-        };
+        String[] columns = null;
 
 //        String whereClause = "(" + FormsTable.COLUMN_ISTATUS + " is null OR " + FormsTable.COLUMN_ISTATUS + "='') AND " + FormsTable.COLUMN_CLUSTERCODE + "=? AND " + FormsTable.COLUMN_HHNO + "=?";
         String whereClause = FormsTable.COLUMN_CLUSTERCODE + "=? AND " + FormsTable.COLUMN_HHNO + "=?";
