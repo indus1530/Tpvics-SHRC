@@ -139,7 +139,7 @@ public class SectionInfoActivity extends AppCompatActivity {
         MainApp.fc.setHhno(bi.hh12.getText().toString().toUpperCase());
         MainApp.fc.setLuid(bl.getLUID());
         MainApp.fc.setSysDate(new SimpleDateFormat("dd-MM-yy HH:mm", Locale.ENGLISH).format(new Date().getTime()));
-        setGPS(this); // Set GPS
+        //setGPS(this); // Set GPS
 
         JSONObject json = new JSONObject();
 
