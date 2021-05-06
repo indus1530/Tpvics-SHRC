@@ -104,14 +104,6 @@ INJECTED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xm
 		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
 		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:5:5-45
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:7:5-79
-	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:7:22-76
-uses-feature#android.hardware.location.gps
-ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:8:5-66
-	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:8:19-63
 uses-permission#android.permission.INTERNET
 ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:10:5-67
 	android:name
@@ -122,10 +114,6 @@ MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\
 MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\ali.azaz\.gradle\caches\transforms-2\files-2.1\1b0940b8fa57cb0dc3246df19ba343fb\work-runtime-2.5.0\AndroidManifest.xml:26:5-79
 	android:name
 		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:11:22-76
-uses-permission#android.hardware.location.gps
-ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:12:5-69
-	android:name
-		ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:12:22-66
 uses-permission#android.permission.GET_ACCOUNTS
 ADDED from C:\AliWork\Projects\TPVICS-HH-SHRC\app\src\main\AndroidManifest.xml:13:5-71
 	android:name
