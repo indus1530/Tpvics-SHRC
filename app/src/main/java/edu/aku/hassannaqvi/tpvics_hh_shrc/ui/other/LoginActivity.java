@@ -77,8 +77,6 @@ import kotlin.Unit;
 import kotlin.coroutines.CoroutineContext;
 
 import static edu.aku.hassannaqvi.tpvics_hh_shrc.CONSTANTS.LOGIN_SPLASH_FLAG;
-import static edu.aku.hassannaqvi.tpvics_hh_shrc.CONSTANTS.MINIMUM_DISTANCE_CHANGE_FOR_UPDATES;
-import static edu.aku.hassannaqvi.tpvics_hh_shrc.CONSTANTS.MINIMUM_TIME_BETWEEN_UPDATES;
 import static edu.aku.hassannaqvi.tpvics_hh_shrc.CONSTANTS.MY_PERMISSIONS_REQUEST_READ_CONTACTS;
 import static edu.aku.hassannaqvi.tpvics_hh_shrc.CONSTANTS.MY_PERMISSIONS_REQUEST_READ_PHONE_STATE;
 import static edu.aku.hassannaqvi.tpvics_hh_shrc.CONSTANTS.TWO_MINUTES;
@@ -467,9 +465,9 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
                         //loadIMEI();
                     }
                     break;
-                case Manifest.permission.ACCESS_COARSE_LOCATION:
-                    break;
-                case Manifest.permission.ACCESS_FINE_LOCATION:
+                /*case Manifest.permission.ACCESS_COARSE_LOCATION:
+                    break;*/
+                /*case Manifest.permission.ACCESS_FINE_LOCATION:
                     if (grantResults[i] == PackageManager.PERMISSION_GRANTED) {
                         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
@@ -491,7 +489,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
 
                         );
                     }
-                    break;
+                    break;*/
                 case Manifest.permission.WRITE_EXTERNAL_STORAGE:
                 case Manifest.permission.CAMERA:
                     break;
@@ -688,7 +686,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
 
 
         public void onStatusChanged(String s, int i, Bundle b) {
-            showCurrentLocation();
+            //showCurrentLocation();
         }
 
         public void onProviderDisabled(String s) {
@@ -746,9 +744,9 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
             mAuthTask = null;
             showProgress(false);
             if (!success) return;
-            LocationManager mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+            /*LocationManager mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
             assert mlocManager != null;
-            if (mlocManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+            if (mlocManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {*/
                 try {
                     MainApp.user = MainApp.appInfo.dbHelper.getLoginUser(mEmail, computeHash(mPassword));
 
@@ -774,7 +772,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
                 }
 
 
-            } else {
+            /*} else {
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
                         LoginActivity.this);
                 alertDialogBuilder
@@ -791,7 +789,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
                 AlertDialog alert = alertDialogBuilder.create();
                 alert.show();
 
-            }
+            }*/
 
         }
 
