@@ -8,7 +8,6 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Environment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.Window
@@ -17,19 +16,16 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import edu.aku.hassannaqvi.tpvics_hh.R
-import edu.aku.hassannaqvi.tpvics_hh.database.CreateTable.DATABASE_COPY
-import edu.aku.hassannaqvi.tpvics_hh.database.CreateTable.DATABASE_NAME
 import edu.aku.hassannaqvi.tpvics_hh.database.CreateTable.PROJECT_NAME
 import edu.aku.hassannaqvi.tpvics_hh.databinding.ItemDialogBinding
 import edu.aku.hassannaqvi.tpvics_hh.ui.other.ChildEndingActivity
 import edu.aku.hassannaqvi.tpvics_hh.ui.other.EndingActivity
 import edu.aku.hassannaqvi.tpvics_hh.utils.shared.SharedStorage
-import java.io.*
+import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
 
 fun dbBackup(context: Context) {
-    return
     val dt: String = SharedStorage.getBackUpDTFolder(context)
     if (dt != SimpleDateFormat("dd-MM-yyyy", Locale.ENGLISH).format(Date())) {
         SharedStorage.setBackUpDTFolder(context, SimpleDateFormat("dd-MM-yyyy", Locale.ENGLISH).format(Date()))
@@ -52,7 +48,7 @@ fun dbBackup(context: Context) {
             success = folder.mkdirs()
         }
         if (success) {
-            val any = try {
+            /*val any = try {
                 val dbFile = File(context.getDatabasePath(DATABASE_NAME).path)
                 val fis = FileInputStream(dbFile)
                 val outFileName: String = directoryName + File.separator + DATABASE_COPY
@@ -71,7 +67,7 @@ fun dbBackup(context: Context) {
                 fis.close()
             } catch (e: IOException) {
                 e.message?.let { Log.e("dbBackup:", it) }
-            }
+            }*/
         }
     } else {
         Toast.makeText(context, "Not create folder", Toast.LENGTH_SHORT).show()

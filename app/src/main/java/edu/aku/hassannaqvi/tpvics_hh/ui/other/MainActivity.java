@@ -12,6 +12,7 @@ import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -49,6 +50,7 @@ import edu.aku.hassannaqvi.tpvics_hh.utils.WarningActivityInterface;
 import edu.aku.hassannaqvi.tpvics_hh.utils.shared.SharedStorage;
 
 import static edu.aku.hassannaqvi.tpvics_hh.core.MainApp.appInfo;
+import static edu.aku.hassannaqvi.tpvics_hh.database.CreateTable.PROJECT_NAME;
 
 public class MainActivity extends AppCompatActivity implements WarningActivityInterface {
 
@@ -244,21 +246,24 @@ public class MainActivity extends AppCompatActivity implements WarningActivityIn
                 bi.lblAppVersion.setVisibility(View.VISIBLE);
 
                 String fileName = CreateTable.DATABASE_NAME.replace(".db", "-New-Apps");
-                file = new File(Environment.getExternalStorageDirectory() + File.separator + fileName, versionApp.getPathname());
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
+                    file = new File(this.getExternalFilesDir("").getAbsolutePath() + File.separator + PROJECT_NAME);
+                else
+                    file = new File(Environment.getExternalStorageDirectory() + File.separator + PROJECT_NAME);
 
                 if (file.exists()) {
-                    bi.lblAppVersion.setText(new StringBuilder(getString(R.string.app_name) + " New Version ").append(newVer).append("  Downloaded"));
+                    bi.lblAppVersion.setText(new StringBuilder(getString(R.string.app_name) + "App New Version").append(newVer).append("  ").append("Downloading"));
                     showDialog(newVer, preVer);
                 } else {
                     NetworkInfo networkInfo = ((ConnectivityManager) Objects.requireNonNull(getSystemService(Context.CONNECTIVITY_SERVICE))).getActiveNetworkInfo();
                     if (networkInfo != null && networkInfo.isConnected()) {
-                        bi.lblAppVersion.setText(new StringBuilder(getString(R.string.app_name) + " App New Version ").append(newVer).append("  Downloading.."));
+                        bi.lblAppVersion.setText(new StringBuilder(getString(R.string.app_name) + "App New Version").append(newVer).append("  ").append("Downloading").append(".."));
                         downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
                         Uri uri = Uri.parse(MainApp._UPDATE_URL + versionApp.getPathname());
                         DownloadManager.Request request = new DownloadManager.Request(uri);
-                        request.setDestinationInExternalPublicDir(fileName, versionApp.getPathname())
+                        request.setDestinationInExternalPublicDir(file.getAbsolutePath(), versionApp.getPathname())
                                 .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
-                                .setTitle("Downloading " + getString(R.string.app_name) + " App new App ver." + newVer);
+                                .setTitle("Downloading" + getString(R.string.app_name) + "App New Version" + newVer);
 
                         long refID = downloadManager.enqueue(request);
                         SharedStorage.INSTANCE.setDownloadFileRefID(this, refID);
