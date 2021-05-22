@@ -276,7 +276,6 @@ public class SyncActivity extends AppCompatActivity {
         }
     }
 
-
     private void beginDownload() {
         List<OneTimeWorkRequest> workRequests = new ArrayList<>();
         for (int i = 0; i < downloadTables.size(); i++) {
