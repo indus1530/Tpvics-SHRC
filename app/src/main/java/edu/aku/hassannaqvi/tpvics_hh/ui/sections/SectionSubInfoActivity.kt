@@ -57,6 +57,7 @@ class SectionSubInfoActivity : AppCompatActivity(), EndSectionActivity {
             serial = it.size + 1
             adapter.setMList(it)
         })
+        bi.faBtnMenu.isClickable = !MainApp.fc.istatus.equals("1")
     }
 
     override fun onResume() {
@@ -67,7 +68,8 @@ class SectionSubInfoActivity : AppCompatActivity(), EndSectionActivity {
     override fun endSecActivity(flag: Boolean) {
         finish()
         startActivity(Intent(this, EndingActivity::class.java)
-                .putExtra("complete", flag).putExtra(SUB_INFO_END_FLAG, true)
+                .putExtra("complete", flag)
+                .putExtra(SUB_INFO_END_FLAG, true)
                 .putExtra(FSTATUS_END_FLAG, MainApp.fc.getfStatus())
                 .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
     }
