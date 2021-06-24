@@ -33,13 +33,13 @@ class EndingActivity : AppCompatActivity() {
         val fStatusEndActivityFlag = fStatus != null
         if (check) {
             bi.istatusa.isEnabled = true
-            bi.istatusb.isEnabled = fStatusEndActivityFlag
-            bi.istatusc.isEnabled = fStatusEndActivityFlag
-            bi.istatusd.isEnabled = fStatusEndActivityFlag
-            bi.istatuse.isEnabled = fStatusEndActivityFlag
-            bi.istatusf.isEnabled = fStatusEndActivityFlag
-            bi.istatusg.isEnabled = fStatusEndActivityFlag
-            bi.istatus96.isEnabled = fStatusEndActivityFlag
+            bi.istatusb.isEnabled = !MainApp.fc.getfStatus().equals("1")
+            bi.istatusc.isEnabled = !MainApp.fc.getfStatus().equals("1")
+            bi.istatusd.isEnabled = !MainApp.fc.getfStatus().equals("1")
+            bi.istatuse.isEnabled = !MainApp.fc.getfStatus().equals("1")
+            bi.istatusf.isEnabled = !MainApp.fc.getfStatus().equals("1")
+            bi.istatusg.isEnabled = !MainApp.fc.getfStatus().equals("1")
+            bi.istatus96.isEnabled = !MainApp.fc.getfStatus().equals("1")
         } else {
             bi.istatusa.isEnabled = false
             if (fStatus == null) {
