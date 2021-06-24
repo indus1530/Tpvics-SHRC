@@ -167,7 +167,7 @@ public class SectionInfoActivity extends AppCompatActivity {
                 json.put("hh06", selSplit[0]);
                 json.put("hh07", selSplit[1]);
                 json.put("hh08", selSplit[2]);
-                json.put("hh09", selSplit[3]);
+                //json.put("hh09", selSplit[3]);
             }
         }
 
@@ -184,7 +184,7 @@ public class SectionInfoActivity extends AppCompatActivity {
 
         if (!Validator.emptyTextBox(this, bi.hh11)) return;
         boolean loginFlag;
-        if (bi.hh11.getText().toString().length() != 9) {
+        if (bi.hh11.getText().toString().trim().length() != 9) {
             Toast.makeText(this, "Invalid Cluster length!!", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -218,7 +218,7 @@ public class SectionInfoActivity extends AppCompatActivity {
                         if (!selected.equals("")) {
                             String[] selSplit = selected.split("\\|");
                             bi.fldGrpSectionA01.setVisibility(View.VISIBLE);
-                            bi.hh09txt.setText(selSplit[3]);
+                            bi.hh09txt.setText(selSplit[2]);
                             bi.geoarea.setText(new StringBuilder(selSplit[2]).append(", ").append(selSplit[1]).append(", ").append(selSplit[0]));
                         }
                     }
