@@ -79,7 +79,7 @@
                         android:id="@+id/dob"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="12/10/2020"
+                        android:text="12/10/2021"
 
                         android:textColor="#7f7f7f" />
 

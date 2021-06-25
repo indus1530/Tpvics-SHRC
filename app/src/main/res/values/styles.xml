@@ -35,7 +35,7 @@
         <item name="android:layout_margin">4dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -60,7 +60,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/white</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">16dp</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
@@ -81,7 +81,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/white</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">16dp</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
@@ -101,7 +101,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/white</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">16dp</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
@@ -137,7 +137,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">24dp</item>
         <item name="android:textColor">@color/colorPrimary</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">16dp</item>
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
         <item name="android:textStyle">bold</item>
@@ -149,7 +149,7 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:background">@color/colorSecondary</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_margin">12dp</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
@@ -158,18 +158,18 @@
     <style name="listItems" parent="android:Widget.Material.Light.TextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">4dp</item>
     </style>
 
-    <style name="errors">
+    <style name="errors2">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">24dp</item>
         <item name="android:background">#ffd6d6</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">#ff1e1e</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:visibility">invisible</item>
         <item name="android:padding">16dp</item>
     </style>
@@ -182,7 +182,7 @@
         <item name="android:visibility">gone</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/green</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">16dp</item>
 
     </style>
@@ -194,7 +194,7 @@
         <item name="android:background">@drawable/bacground_border</item>
         <item name="android:gravity">center</item>
 
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">8dp</item>
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
@@ -205,7 +205,7 @@
         <item name="android:digits">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
         <item name="android:background">@drawable/et_style</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">4dp</item>
         <item name="android:singleLine">true</item>
         <item name="android:typeface">sans</item>
@@ -217,7 +217,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/et_style</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">0dp</item>
         <item name="android:singleLine">true</item>
         <item name="android:typeface">sans</item>
@@ -227,7 +227,7 @@
     <style name="textView3Head">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">20dp</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textAlignment">center</item>
@@ -242,7 +242,7 @@
         <item name="android:elevation">1dp</item>
         <item name="android:background">@color/white</item>
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">16dp</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
@@ -264,7 +264,7 @@
         <!--        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>-->
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">30px</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:drawable">@drawable/textview_background_grad</item>
         <item name="android:typeface">normal</item>
         <item name="android:padding">8dp</item>
@@ -280,7 +280,7 @@
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">25px</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:drawable">@drawable/textview_background_grad</item>
         <item name="android:typeface">normal</item>
         <item name="android:padding">10dp</item>
@@ -295,7 +295,7 @@
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
-        <item name="android:textSize">25px</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:drawable">@drawable/textview_background_grad</item>
         <item name="android:typeface">normal</item>
         <item name="android:padding">10dp</item>
@@ -307,14 +307,14 @@
     </style>
 
     <style name="SpinnerItemText">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:typeface">sans</item>
     </style>
 
     <style name="spinner" parent="Widget.AppCompat.Spinner">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:typeface">sans</item>
         <item name="android:textColor">#ff0000</item>
         <item name="android:background">#efefef</item>
@@ -324,15 +324,13 @@
     </style>
 
     <style name="spinnerItemStyle">
-        <item name="android:padding">8dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:typeface">sans</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
 
     <style name="spinnerDropDownItemStyle">
-        <item name="android:padding">8dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:typeface">sans</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
@@ -343,7 +341,7 @@
         <item name="android:gravity">end</item>
         <item name="android:orientation">vertical</item>
         <item name="android:background">#d6d6d6</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
 
@@ -364,7 +362,7 @@
         <item name="android:layout_gravity">right</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:clickable">true</item>
         <item name="android:drawablePadding">16dp</item>
         <item name="android:background">@drawable/bottom_options</item>
@@ -375,7 +373,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:minHeight">36dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:padding">16dp</item>
         <item name="android:radius">2dp</item>
         <item name="android:elevation">1dp</item>
@@ -389,7 +387,7 @@
         <item name="android:layout_gravity">right</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:clickable">true</item>
         <item name="android:drawablePadding">16dp</item>
         <item name="android:background">@drawable/bottom_options</item>
@@ -480,7 +478,7 @@
 
     <style name="CustomTitle" parent="TextAppearance.ShowcaseView.Title">
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
     </style>
@@ -538,7 +536,7 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:padding">12dp</item>
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:paddingTop">16dp</item>
         <item name="android:paddingStart">8dp</item>
         <item name="android:gravity">center</item>

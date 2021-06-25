@@ -281,7 +281,7 @@ public class SectionCHCActivity extends AppCompatActivity implements EndSectionA
                     month_year = getMonthAndYearFromDate(LocalDateTime.ofInstant(dtInstant, ZoneId.systemDefault()).toLocalDate().toString());
                 else month_year = getMonthAndYearFromDate(child.getCalculatedDOB().toString());
                 int totalMonths = Integer.parseInt(month_year.getFirst()) + Integer.parseInt(month_year.getSecond()) * 12;
-                monthFlag = totalMonths >= 12 && totalMonths < 24;
+                monthFlag = totalMonths >= 6 && totalMonths < 24;
             }
             if (monthFlag) {
                 try {

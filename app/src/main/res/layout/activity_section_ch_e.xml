@@ -328,8 +328,12 @@
 
 
             <!-- im26a  TextArea   -->
+            <!-- Khalid Feroz by Email: Also hide questions IM26A, IM26B and IM26C.   -->
+
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVim26a"
+                android:visibility="gone"
                 style="@style/cardView">
 
                 <LinearLayout style="@style/vlinearlayout">
@@ -355,6 +359,7 @@
             <!-- im26b  TextArea   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVim26b"
+                android:visibility="gone"
                 style="@style/cardView">
 
                 <LinearLayout style="@style/vlinearlayout">
@@ -380,6 +385,7 @@
             <!-- im26c  TextArea   -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/fldGrpCVim26c"
+                android:visibility="gone"
                 style="@style/cardView">
 
                 <LinearLayout style="@style/vlinearlayout">

@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v17\\sync_list_adapter.xml",
-        "source": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\src\\main\\res\\layout-v17\\sync_list_adapter.xml"
+        "merged": "F:\\Android\\Tpvics-SHRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v17\\sync_list_adapter.xml",
+        "source": "F:\\Android\\Tpvics-SHRC\\app\\src\\main\\res\\layout-v17\\sync_list_adapter.xml"
     },
     {
-        "merged": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v17\\upload_list_adapter.xml",
-        "source": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\src\\main\\res\\layout-v17\\upload_list_adapter.xml"
+        "merged": "F:\\Android\\Tpvics-SHRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v17\\upload_list_adapter.xml",
+        "source": "F:\\Android\\Tpvics-SHRC\\app\\src\\main\\res\\layout-v17\\upload_list_adapter.xml"
     },
     {
-        "merged": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v17\\content_family_members_list.xml",
-        "source": "C:\\AliWork\\Projects\\TPVICS-HH-SHRC\\app\\src\\main\\res\\layout-v17\\content_family_members_list.xml"
+        "merged": "F:\\Android\\Tpvics-SHRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v17\\content_family_members_list.xml",
+        "source": "F:\\Android\\Tpvics-SHRC\\app\\src\\main\\res\\layout-v17\\content_family_members_list.xml"
     }
 ]

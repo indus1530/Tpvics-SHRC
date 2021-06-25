@@ -234,7 +234,7 @@ public class SectionCHBActivity extends AppCompatActivity implements EndSectionA
         if (formValidation()) {
             //Calculate months
             int totalMonths = Integer.parseInt(bi.cb04mm.getText().toString()) + Integer.parseInt(bi.cb04yy.getText().toString()) * 12;
-            boolean monthFlag = totalMonths >= 12 && totalMonths < 24;
+            boolean monthFlag = totalMonths >= 6 && totalMonths < 24;
             if (monthFlag) {
                 try {
                     SaveDraft();
