@@ -74,7 +74,7 @@
                     </RelativeLayout>
 
                     <TextView
-                        style="@style/textView3Head"
+                        style="@style/sub"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/cb01_info" />
@@ -161,7 +161,7 @@
                     </RelativeLayout>
 
                     <TextView
-                        style="@style/textView3Head"
+                        style="@style/sub"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/cb02_info" />
@@ -264,7 +264,7 @@
                             android:orientation="vertical">
 
                             <TextView
-                                style="@style/textView3Head"
+                                style="@style/sub"
                                 android:text="@string/cb03yy" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -288,7 +288,7 @@
                             android:orientation="vertical">
 
                             <TextView
-                                style="@style/textView3Head"
+                                style="@style/sub"
                                 android:text="@string/cb03mm" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -311,7 +311,7 @@
                             android:orientation="vertical">
 
                             <TextView
-                                style="@style/textView3Head"
+                                style="@style/sub"
                                 android:text="@string/cb03dd" />
 
                             <com.edittextpicker.aliazaz.EditTextPicker
@@ -370,8 +370,9 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            style="@style/sub"
                             android:layout_width="0dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
                             android:text="@string/year" />
@@ -389,8 +390,9 @@
                             app:type="range" />
 
                         <TextView
+                            style="@style/sub"
                             android:layout_width="0dp"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
                             android:text="@string/month" />

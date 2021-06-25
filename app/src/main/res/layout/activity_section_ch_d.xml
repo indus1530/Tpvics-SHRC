@@ -22,7 +22,7 @@
 
                 <TextView
                     android:id="@+id/imsub"
-                    style="@style/sub"
+                    style="@style/info_style"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/im05title2"
