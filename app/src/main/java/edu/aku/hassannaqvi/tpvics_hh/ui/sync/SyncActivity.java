@@ -350,8 +350,8 @@ public class SyncActivity extends AppCompatActivity {
                                 }
 
                                 downloadTables.get(position).setmessage("Received: " + jsonArray.length() + ", Saved: " + insertCount);
-                                downloadTables.get(position).setstatus(insertCount == 0 ? "Unsuccessful" : "Successful");
-                                downloadTables.get(position).setstatusID(insertCount == 0 ? 1 : 3);
+                                downloadTables.get(position).setstatus(insertCount < 1 ? "Unsuccessful" : "Successful");
+                                downloadTables.get(position).setstatusID(insertCount < 1 ? 1 : 3);
                                 syncListAdapter.updatesyncList(downloadTables);
                             } catch (JSONException e) {
                                 e.printStackTrace();

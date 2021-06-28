@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 
 import com.validatorcrawler.aliazaz.Clear;
@@ -46,6 +47,7 @@ import static edu.aku.hassannaqvi.tpvics_hh.core.MainApp.clusters;
 
 public class SectionInfoActivity extends AppCompatActivity {
 
+    private static final String TAG = "SectionInfoActivity";
     ActivitySectionInfoBinding bi;
     private DatabaseHelper db;
     private BLRandom bl;
@@ -78,30 +80,41 @@ public class SectionInfoActivity extends AppCompatActivity {
         bi.hh12.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                //      Toast.makeText(SectionHHActivity.this, charSequence+" i="+i+" i1="+i1+" i2="+i2, Toast.LENGTH_LONG).show();
+                //            Toast.makeText(SectionInfoActivity.this, charSequence+" i="+i+" i1="+i1+" i2="+i2, Toast.LENGTH_LONG).show();
+                //     Log.d(TAG, "beforeTextChanged: "+charSequence+ " | "+i+" | "+i1+" | "+i2);
 
                 if (i == 1 && i1 == 0 && i2 == 1) {
                     bi.hh12.setText(bi.hh12.getText().toString() + "-");
+                    //         Log.d(TAG, "beforeTextChanged1: -");
                 }
                 if (i == 6 && i1 == 0 && i2 == 1) {
                     bi.hh12.setText(bi.hh12.getText().toString() + "-");
+                    //          Log.d(TAG, "beforeTextChanged2: -");
+
                 }
             }
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
+                //        Log.d(TAG, "onTextChanged: "+charSequence+ " | "+i+" | "+i1+" | "+i2);
                 if (i == 0 && i1 == 0 && i2 == 1) {
                     bi.hh12.setText(bi.hh12.getText().toString() + "-");
+                    //            Log.d(TAG, "onTextChanged1: -");
                 }
                 if (i == 2 && i1 == 1 && i2 == 0) {
                     bi.hh12.setText(bi.hh12.getText().toString().substring(0, 1));
+                    //           Log.d(TAG, "onTextChanged2: -");
+
                 }
-                if (i == 1 && i1 == 4 && i2 == 5) {
+                if (i == 0 && i1 == 5 && i2 == 6) {
                     bi.hh12.setText(bi.hh12.getText().toString() + "-");
+                    //            Log.d(TAG, "onTextChanged3: -");
+
                 }
                 if (i == 7 && i1 == 1 && i2 == 0) {
                     bi.hh12.setText(bi.hh12.getText().toString().substring(0, 6));
+                    //             Log.d(TAG, "onTextChanged4: -");
+
                 }
 
             }
@@ -219,15 +232,17 @@ public class SectionInfoActivity extends AppCompatActivity {
                             String[] selSplit = selected.split("\\|");
                             bi.fldGrpSectionA01.setVisibility(View.VISIBLE);
                             bi.hh09txt.setText(selSplit[2]);
+                            bi.geoarea.setTextColor(ContextCompat.getColor(SectionInfoActivity.this, R.color.gray));
                             bi.geoarea.setText(new StringBuilder(selSplit[2]).append(", ").append(selSplit[1]).append(", ").append(selSplit[0]));
                         }
                     }
 
                     @Override
                     public void onError(@NonNull Throwable e) {
-                        Toast.makeText(SectionInfoActivity.this, "Sorry cluster not found!!", Toast.LENGTH_SHORT).show();
-                        bi.hh09txt.setText("Village");
-                        bi.geoarea.setText(new StringBuilder("Tehsil").append(", ").append("District").append(", ").append("Province"));
+                        Toast.makeText(SectionInfoActivity.this, "Sorry, cluster not found!", Toast.LENGTH_SHORT).show();
+                        bi.hh09txt.setText(null);
+                        bi.geoarea.setText("Cluster Not Found!");
+                        bi.geoarea.setTextColor(ContextCompat.getColor(SectionInfoActivity.this, R.color.red));
                         disposable.dispose();
                     }
 
@@ -308,12 +323,15 @@ public class SectionInfoActivity extends AppCompatActivity {
 
     private void blRandomExist(BLRandom bl, String message, Boolean flag) {
         if (bl != null) {
+            bi.hh12name.setTextColor(ContextCompat.getColor(SectionInfoActivity.this, R.color.gray));
             bi.hh12msg.setText(message);
             bi.hh12name.setText(bl.getHhhead().toUpperCase());
             bi.fldGrpSectionA02.setVisibility(flag ? View.VISIBLE : View.GONE);
         } else {
-            bi.hh12msg.setText("Household not found!!");
-            bi.hh12name.setText(null);
+
+            bi.hh12name.setTextColor(ContextCompat.getColor(SectionInfoActivity.this, R.color.red));
+            bi.hh12name.setText("Household not found!!");
+            bi.hh12msg.setText(null);
             bi.fldGrpSectionA02.setVisibility(View.GONE);
         }
     }

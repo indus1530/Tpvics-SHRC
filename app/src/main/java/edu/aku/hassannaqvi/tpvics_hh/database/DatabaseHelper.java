@@ -8,6 +8,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -49,9 +50,11 @@ import static edu.aku.hassannaqvi.tpvics_hh.database.CreateTable.SQL_CREATE_VERS
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String TAG = "DatabaseHelper";
+    Context mContext;
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        mContext = context;
     }
 
     @Override
@@ -94,6 +97,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 if (rowID != -1) insertCount++;
             } catch (JSONException e) {
                 e.printStackTrace();
+                return -1;
             }
         }
         return insertCount;
@@ -110,6 +114,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 jsonObjectCC = blList.getJSONObject(i);
             } catch (JSONException e) {
                 e.printStackTrace();
+                Toast.makeText(mContext, e.getClass() + ": " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                return -1;
             }
 
             BLRandom Vc = new BLRandom();
@@ -117,6 +123,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 Vc.Sync(jsonObjectCC);
             } catch (JSONException e) {
                 e.printStackTrace();
+                Toast.makeText(mContext, e.getClass() + ": " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                return -1;
             }
             ContentValues values = new ContentValues();
 

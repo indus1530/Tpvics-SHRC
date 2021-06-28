@@ -48,7 +48,7 @@ public class BLRandom {
     }
 
     public BLRandom Sync(JSONObject jsonObject) throws JSONException {
-        this._ID = jsonObject.getString(BLRandomHHTable.COLUMN_ID);
+       this._ID = jsonObject.getString(BLRandomHHTable.COLUMN_ID);
         this.LUID = jsonObject.getString(BLRandomHHTable.COLUMN_LUID);
         this.pCode = jsonObject.getString(BLRandomHHTable.COLUMN_P_CODE);
         this.ebCode = jsonObject.getString(BLRandomHHTable.COLUMN_EB_CODE);

@@ -72,7 +72,7 @@ public class MainApp extends Application {
         }
 
         /*Setting fonts*/
-        TypefaceUtil.overrideFont(getApplicationContext(), "SANS_SERIF", "fonts/JameelNooriNastaleeq.ttf");
+       // TypefaceUtil.overrideFont(getApplicationContext(), "SANS_SERIF", "fonts/JameelNooriNastaleeq.ttf");
         // Requires Permission for GPS -- android.permission.ACCESS_FINE_LOCATION
         // Requires Additional permission for 5.0 -- android.hardware.location.gps
         /*locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);

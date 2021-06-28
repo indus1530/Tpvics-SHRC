@@ -2593,6 +2593,7 @@ drawable sosas_icon
 drawable sosas_splash
 drawable spinner_drawable
 drawable spinner_style
+drawable sub_labels_separator
 drawable subheadings_separator
 drawable success_shape
 drawable summary
@@ -2610,6 +2611,9 @@ drawable uncolor
 drawable upload
 drawable warning
 drawable warning_shape
+font open_sans_condensed_light
+font roboto
+font urdu_nastaleeq
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2682,6 +2686,7 @@ id activityTitle
 id activity_chooser_view_content
 id activity_main
 id add
+id age
 id alertTitle
 id aligned
 id all
@@ -5868,6 +5873,10 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
 style ThemeOverlayColorAccentRed
+style Toolbar_SubtitleText
+style Toolbar_TitleText
+style ToolbarTheme
+style ToolbarTheme_Title
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

@@ -30,16 +30,16 @@ class EndingActivity : AppCompatActivity() {
 
         val check = intent.getBooleanExtra("complete", false)
         val fStatus = intent.getStringExtra(CONSTANTS.FSTATUS_END_FLAG)
-        val fStatusEndActivityFlag = fStatus != null
+      //  val fStatusEndActivityFlag = fStatus != null
         if (check) {
             bi.istatusa.isEnabled = true
-            bi.istatusb.isEnabled = !MainApp.fc.getfStatus().equals("1")
-            bi.istatusc.isEnabled = !MainApp.fc.getfStatus().equals("1")
-            bi.istatusd.isEnabled = !MainApp.fc.getfStatus().equals("1")
-            bi.istatuse.isEnabled = !MainApp.fc.getfStatus().equals("1")
-            bi.istatusf.isEnabled = !MainApp.fc.getfStatus().equals("1")
-            bi.istatusg.isEnabled = !MainApp.fc.getfStatus().equals("1")
-            bi.istatus96.isEnabled = !MainApp.fc.getfStatus().equals("1")
+            bi.istatusb.isEnabled = false
+            bi.istatusc.isEnabled = false
+            bi.istatusd.isEnabled = false
+            bi.istatuse.isEnabled = false
+            bi.istatusf.isEnabled = false
+            bi.istatusg.isEnabled = false
+            bi.istatus96.isEnabled = false
         } else {
             bi.istatusa.isEnabled = false
             if (fStatus == null) {

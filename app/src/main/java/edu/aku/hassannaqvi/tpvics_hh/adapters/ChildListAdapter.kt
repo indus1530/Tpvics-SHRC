@@ -22,6 +22,7 @@ class ChildListAdapter(private val mContext: Context, private var mList: List<Ch
     override fun onBindViewHolder(holder: ViewHolder, i: Int) {
         holder.bi.parentLayout.tag = i
         holder.bi.name.text = mList[i].childName
+        holder.bi.age.text = mList[i].getagey() + "y " + mList[i].getagem() + "m"
         if (mList[i].cstatus != "1")
             holder.bi.containeridcard.setBackgroundColor(ContextCompat.getColor(mContext, R.color.shifted))
         Glide.with(mContext)

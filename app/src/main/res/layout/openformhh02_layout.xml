@@ -11,7 +11,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/parentLayout"
             style="@style/cardView"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:background="@drawable/card_design"
@@ -58,7 +58,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_weight="1"
                     android:autoSizeTextType="uniform"
-                    android:text="CLICK FOR HOUSEHOLD FORM"
+                    android:text="CLICK HERE FOR HOUSEHOLD FORM"
                     android:textAlignment="center"
                     android:textColor="#7f7f7f"
                     android:textSize="20sp"
