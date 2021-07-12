@@ -257,7 +257,6 @@ public class SectionCHCActivity extends AppCompatActivity implements EndSectionA
         if (dtInstant != null)
             child.setCalculatedDOB(LocalDateTime.ofInstant(dtInstant, ZoneId.systemDefault()).toLocalDate());
     }
-
     private boolean formValidation() {
         if (!imFlag) {
             Toast.makeText(this, "Invalid date!", Toast.LENGTH_SHORT).show();

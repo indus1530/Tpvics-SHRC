@@ -130,6 +130,7 @@ public class SyncActivity extends AppCompatActivity {
                 // Child
                 uploadTables.add(new SyncModel(ChildContract.ChildTable.TABLE_NAME.toLowerCase()));
                 MainApp.uploadData.add(db.getUnsyncedChildForms());
+                MainApp.downloadData = new String[uploadTables.size()];
 
                 setAdapter(uploadTables);
                 uploadData();
@@ -438,7 +439,8 @@ public class SyncActivity extends AppCompatActivity {
 
                 if (workInfo.getState() == WorkInfo.State.SUCCEEDED) {
 
-                    String result = workInfo.getOutputData().getString("message");
+                    // String result = workInfo.getOutputData().getString("message");
+                    String result = MainApp.downloadData[position];
 
                     int sSynced = 0;
                     int sDuplicate = 0;

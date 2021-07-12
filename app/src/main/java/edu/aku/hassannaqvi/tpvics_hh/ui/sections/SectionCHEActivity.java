@@ -69,8 +69,8 @@ public class SectionCHEActivity extends AppCompatActivity {
                                 bi.im24a98.isChecked() ? "98" :
                                         "0");
 
-        json.put("im24b", bi.im24b.getText().toString());
-        json.put("im24b", bi.im24b98.isChecked() ? "98" : "0");
+//        json.put("im24b", bi.im24b.getText().toString());
+        json.put("im24b", bi.im24b98.isChecked() ? "98" : bi.im24b.getText().toString());
 
         json.put("im24c",
                 bi.im24c1.isChecked() ? "1" :

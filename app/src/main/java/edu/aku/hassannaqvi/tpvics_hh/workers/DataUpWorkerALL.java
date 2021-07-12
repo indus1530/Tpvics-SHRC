@@ -18,7 +18,6 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.net.URL;
 import java.security.KeyManagementException;
 import java.security.KeyStore;
@@ -30,6 +29,7 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.util.Locale;
 
+import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManagerFactory;
@@ -133,10 +133,10 @@ public class DataUpWorkerALL extends Worker {
         try {
             url = new URL(MainApp._HOST_URL + MainApp._SERVER_URL);
             Timber.tag(TAG).d("doWork: Connecting...");
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-//            urlConnection.setSSLSocketFactory(buildSslSocketFactory(mContext));
-            urlConnection.setReadTimeout(100000 /* milliseconds */);
-            urlConnection.setConnectTimeout(150000 /* milliseconds */);
+            HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
+            urlConnection.setSSLSocketFactory(buildSslSocketFactory(mContext));
+            urlConnection.setReadTimeout(300000 /* milliseconds */);
+            urlConnection.setConnectTimeout(300000 /* milliseconds */);
             urlConnection.setRequestMethod("POST");
             urlConnection.setDoOutput(true);
             urlConnection.setDoInput(true);
@@ -163,12 +163,14 @@ public class DataUpWorkerALL extends Worker {
             Timber.tag(TAG).d("Upload Begins: %s", jsonParam);
 
             wr.writeBytes(ServerSecurity.INSTANCE.encrypt(jsonParam.toString(), Keys.INSTANCE.apiKey()));
+            Timber.tag(TAG).d("Upload Begins: %s", ServerSecurity.INSTANCE.encrypt(jsonParam.toString(), Keys.INSTANCE.apiKey()));
+
             wr.flush();
             wr.close();
 
             Timber.tag(TAG).d("doInBackground: %s", urlConnection.getResponseCode());
 
-            if (urlConnection.getResponseCode() == HttpURLConnection.HTTP_OK) {
+            if (urlConnection.getResponseCode() == HttpsURLConnection.HTTP_OK) {
                 Timber.tag(TAG).d("Connection Response: %s", urlConnection.getResponseCode());
                 notify.displayNotification(nTitle, "Start uploading data");
 
@@ -218,18 +220,12 @@ public class DataUpWorkerALL extends Worker {
 
         notify.displayNotification(nTitle, String.format(Locale.ENGLISH, "Uploaded %d records", result.length()));
 
-        ///BE CAREFULL DATA.BUILDER CAN HAVE ONLY 1024O BYTES. EACH CHAR HAS 8 BYTES
-        if (result.toString().length() > 10240) {
-            data = new Data.Builder()
-                    .putString("message", String.valueOf(result).substring(0, (10240 - 1) / 8))
-                    .putInt("position", this.position)
-                    .build();
-        } else {
-            data = new Data.Builder()
-                    .putString("message", String.valueOf(result))
-                    .putInt("position", this.position)
-                    .build();
-        }
+        MainApp.downloadData[position] = String.valueOf(result);
+
+        data = new Data.Builder()
+                //    .putString("message", String.valueOf(result))
+                .putInt("position", this.position)
+                .build();
 
         notify.displayNotification(nTitle, "Uploaded successfully");
         return Result.success(data);

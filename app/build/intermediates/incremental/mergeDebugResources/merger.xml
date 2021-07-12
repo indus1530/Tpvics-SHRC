@@ -6666,12 +6666,12 @@
         <item name="android:typeface">sans</item>
         <item name="android:textColor">#FFFFFF</item>
     </style><style name="radiobutton" parent="Widget.AppCompat.CompoundButton.RadioButton">
-        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_gravity">start</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">18sp</item>
         <item name="android:clickable">true</item>
-        <item name="android:drawablePadding">16dp</item>
+        <item name="android:drawablePadding">32dp</item>
         <item name="android:background">@drawable/bottom_options</item>
         <item name="android:padding">16dp</item>
     </style><style name="button" parent="Widget.AppCompat.Button">
@@ -6689,12 +6689,12 @@
         <item name="android:textColor">@color/gray</item>
         
     </style><style name="checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
-        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_gravity">start</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">18sp</item>
         <item name="android:clickable">true</item>
-        <item name="android:drawablePadding">16dp</item>
+        <item name="android:drawablePadding">32dp</item>
         <item name="android:background">@drawable/bottom_options</item>
         <item name="android:padding">16dp</item>
     </style><style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/><style name="cardView">
@@ -6802,7 +6802,7 @@
         <item name="android:actionBarStyle">@style/topBarStyle</item>
         <item name="android:textViewStyle">@style/labels</item>
         <item name="android:editTextStyle">@style/textInput</item>
-        <item name="android:radioButtonStyle">@style/radiobutton</item>
+        <item name="radioButtonStyle">@style/radiobutton</item>
         <item name="checkboxStyle">@style/checkbox</item>
         <item name="android:buttonStyle">@style/button</item>
         <item name="android:textColorHint">@color/grayOverlay</item>
